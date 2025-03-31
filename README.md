@@ -6,32 +6,32 @@ Mūsų komanda (Mezgėjai):
 3. Jokūbas K
 4. Titas K.
 
-Start: 31-03-2025
-*Ended:*
-Deadline: 16-05-2025
+Start: 31-03-2025<br />
+*Ended:*<br />
+Deadline: 16-05-2025<br />
 
-Structure:
-📁 TECHIN-HTML-Project
- | > 📁 CSS
- |    | > 📄 style.css
- |
- | > 📁 JS
- |    | > 📄 script.js
- |
- | > 📁 about-css
- |    | > 📄 style.css
- |
- | > 📁 about-js
- |    | > 📄 script.js
- |
- | > 📁 contacts-css
- |    | > 📄 style.css
- |
- | > 📁 contacts-js
- |    | > 📄 script.js
- |
- | > 📄 index.html //home
- | > 📄 about.html //about
- | > 📄 contacts.html //contacts
- | > 📄 README.md
+Structure:<br />
+📁 TECHIN-HTML-Project<br />
+ | > 📁 CSS<br />
+ |    | > 📄 style.css<br />
+ |<br />
+ | > 📁 JS<br />
+ |    | > 📄 script.js<br />
+ |<br />
+ | > 📁 about-css<br />
+ |    | > 📄 style.css<br />
+ |<br />
+ | > 📁 about-js<br />
+ |    | > 📄 script.js<br />
+ |<br />
+ | > 📁 contacts-css<br />
+ |    | > 📄 style.css<br />
+ |<br />
+ | > 📁 contacts-js<br />
+ |    | > 📄 script.js<br />
+ |<br />
+ | > 📄 index.html //home<br />
+ | > 📄 about.html //about<br />
+ | > 📄 contacts.html //contacts<br />
+ | > 📄 README.md<br />
  | > 📄 LICENSE
