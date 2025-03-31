@@ -6,8 +6,6 @@ Mūsų komanda (Mezgėjai):
 3. Jokūbas K
 4. Titas K.
 
-Start: 31-03-2025\n
-*End:*\n
-Deadline: 16-05-2025\n
-
-...
+Start: 31-03-2025
+*End:*
+Deadline: 16-05-2025
