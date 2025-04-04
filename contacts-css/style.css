@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #014E56;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+ 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #014E56;
+}
+ 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+ 
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+.contact-btn {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+ 
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+}
+ 
+.info {
+    max-width: 40%;
+}
+ 
+.info h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+ 
+.subtitle {
+    color: #FF6B6B;
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+ul li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+ 
+.icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+ 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+ 
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+ 
+.contact-form button {
+    background: white;
+    color: #014E56;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+ 
+footer {
+    background: #012F34;
+    padding: 50px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+ 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+ 
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+ 
+.address {
+    text-align: left;
+    line-height: 1.6;
+}
+ 
+.address p {
+    margin: 5px 0;
+}
+ 
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+ 
+.social-icons i {
+    font-size: 20px;
+    cursor: pointer;
+}
+ 
+.copyright {
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 0.8;
+    text-align: center;
+    width: 100%;
+}
