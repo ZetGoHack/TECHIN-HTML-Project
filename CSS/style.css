@@ -1,0 +1,66 @@
+.Police-blue-bg{
+    background-color: rgb(44, 98, 105);
+    
+}
+.header-txt-color{
+    color: white;
+    width: 1910px;
+    height: 700px;
+    font-family: "Livvic";
+    font-weight: 300;
+    font-style: normal;
+    flex-shrink: 0;
+}
+
+.txt-config{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.button{
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    background: #014E56;
+    width: 153px;
+    height: 28px;
+    top: 73px;
+    left: 1122px;
+    text-align: center;
+}
+.button-txt{
+    color: white;
+    text-decoration: none;
+}
+
+.txt-body{
+    width: 1110px;
+    height: 200px;
+    top: 250px;
+    left: 165px;
+
+}
+
+.article-body{
+    width: 445px;
+    height: 195px;
+}
+
+.article-body-2{
+    display: flex;
+    width: 445px;
+    height: 195px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 79px;
+    flex-shrink: 0;
+}
+
+.menu{
+    list-style-type: none;
+    display: inline-flex;
+}
