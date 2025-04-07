@@ -105,7 +105,38 @@
 .section1 {
 
 }
-
+/* section2 */
 .section2 {
-    
+background-color: #004047;
+height: 745px;
 }
+.section2-div {
+    width: 66%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.section2-div2 {
+    margin: auto;
+    margin-top: 56px;
+    display: flex;
+}
+.section2-human {
+display: inline-block;
+}
+.h1-small {
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.section2-h1 {
+    color: #FFF;
+    margin:auto;
+}
+.section2-span {
+color: #79C8C7;;
+}
+
+/* section2 */
