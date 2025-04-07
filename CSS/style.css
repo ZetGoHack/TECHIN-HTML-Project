@@ -103,9 +103,40 @@
 }
 
 .section1 {
-
+    width: 100%;
+    height: 684px;
+    flex-shrink: 0;
+    background: #012F34;
 }
-
+.line1{
+    width: 50px;
+    height: 4px;
+    flex-shrink: 0;
+    background: #F67E7E;
+    margin-bottom:54px ;
+    margin-top: 140px;
+    margin-left: 165px;
+}
+.build{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    width: 445px;
+    margin-left: 165px;
+}
+.group2{
+    width: 100px;
+    height: 244px;
+    flex-shrink: 0;
+    margin-top: 94px;
+}
+.g2{
+    display: flex;
+    justify-content: end;
+}
 .section2 {
     
 }
