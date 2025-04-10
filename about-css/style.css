@@ -133,3 +133,71 @@
     margin-top: 130px;
     margin-left: 190px;
 }
+.group3{
+    width: 100px;
+    height: 200px;
+    flex-shrink: 0;
+}
+p{
+    color: #FFF;
+    text-align: center;
+    font-family: "Livvic", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    width: 920px;
+    margin-top: 140px;
+    display: inline-block;
+    margin-left: 160px;
+}
+#romb1{
+    width: 350px;
+    height: 253px;
+    flex-shrink: 0;
+    background: #012F34;
+    margin-left: 165px;
+    display: inline-block;
+    margin-top: 16px;
+}
+#romb2{
+    width: 350px;
+    height: 253px;
+    flex-shrink: 0;
+    background: #012F34;
+    display: inline-block;
+    margin-left: 30px;
+}
+#romb3{
+    width: 350px;
+    height: 253px;
+    flex-shrink: 0;
+    background: #012F34;
+    display: inline-block;
+    margin-left: 30px;
+}
+#romb4{
+    width: 350px;
+    height: 253px;
+    flex-shrink: 0;
+    background: #012F34;
+    display: inline-block;
+    margin-left: 165px;
+    margin-top: 76px;
+}
+#romb5{
+    width: 350px;
+    height: 253px;
+    flex-shrink: 0;
+    background: #012F34;
+    display: inline-block;
+    margin-left: 30px;
+}
+#romb6{
+    width: 350px;
+    height: 253px;
+    flex-shrink: 0;
+    background: #012F34;
+    display: inline-block;
+    margin-left: 30px;
+}
