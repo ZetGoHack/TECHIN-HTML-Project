@@ -199,8 +199,8 @@ margin-left: 830px;
 }
 /* section2 */
 .section2 {
-background-color: #004047;
-height: 745px;
+    background-color: #004047;
+    height: 745px;
 }
 .section2-div {
     width: 66%;
@@ -209,12 +209,38 @@ height: 745px;
     text-align: center;
 }
 .section2-div2 {
+    color: white;
+    width: 77%;
     margin: auto;
     margin-top: 56px;
     display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .section2-human {
-display: inline-block;
+    display: inline-block;
+    width: 31.5%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+.section2-human p {
+    margin: 0;
+    margin-top: -25px;
+}
+.section2-avatar {
+    width: 62px;
+    height: 62px;
+    margin-top: 32px;
+    border-radius: 62px;
+    border: 2px solid #C4FFFE;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.section2-what {
+    font-size: 13px;
 }
 .h1-small {
     font-family: Livvic;
@@ -227,11 +253,38 @@ display: inline-block;
     color: #FFF;
     margin:auto;
 }
+.section2-h3 {
+    line-height: 28px;
+    color: #79C8C7;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 24px;
+}
 .section2-span {
-color: #79C8C7;;
+    color: #79C8C7;
+}
+
+.section2-div3 {
+    display: flex;
 }
 
 /* section2 */
+.font-for-what {
+    font-family: Livvic;
+    font-style: italic;
+}
+.font-for-p {
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: 500;
+}
+.font-for-h3 {
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
 
 .flex{
     display: flex;
