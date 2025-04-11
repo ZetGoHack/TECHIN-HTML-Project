@@ -51,7 +51,7 @@
 
 .article-body-2{
     display: inline-block;
-    width: 445px;
+    width: 345px;
     height: 195px;
     gap: 79px;
     flex-shrink: 0;  
@@ -415,5 +415,9 @@ body {
   
   .copyright {
     margin-top: 10px;
+  }
+
+  .icons-size{
+    width: 100px;
   }
   

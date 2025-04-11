@@ -149,3 +149,14 @@ footer {
     text-align: center;
     width: 100%;
 }
+
+.flex2{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-right: 198px;
+}
+
+.flex{
+    display: flex;
+}
