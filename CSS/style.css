@@ -126,13 +126,11 @@ margin-top: 70px;
     width: 100%;
     display: flex;
     justify-content: end;
-
 }
 .group2{
     width: 100px;
     height: 244px;
-    flex-shrink: 0;
-   margin-top: -99px;
+   margin-top: -135px;
 }
 
 .ex{
@@ -172,7 +170,7 @@ margin-left: 830px;
 .group12{
     width: 72px;
     height: 72px;
-    flex-shrink: 0;
+
     margin-right:23px ;
     margin-left: 735px;
 }
@@ -195,6 +193,10 @@ margin-left: 830px;
 }
 .text13{
     margin-top: -82px;
+}
+.for1{
+    margin: auto;
+    width: 90%;
 }
 /* section2 */
 .section2 {
