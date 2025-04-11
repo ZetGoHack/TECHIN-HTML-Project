@@ -20,6 +20,7 @@
     line-height: 100px;
     width: 635px;
     margin-left: 65px;
+    display: inline-block;
 }
 
 .button{
@@ -83,6 +84,12 @@
     gap: 79px;
     flex-shrink: 0;
     margin-left: 30px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
 }
 .flex123{
     display: flex;
@@ -352,7 +359,7 @@ margin-left: 830px;
     line-height: 28px;
     border-radius: 24px;
     border: 2px solid #012F34;
-    display: inline-block;
+    /* display: inline-block; */
     flex-shrink: 0;
     margin-top: 73px;
     padding-top: 9px;
@@ -444,3 +451,18 @@ body {
     width: 100px;
   }
   
+
+  .position2{
+    position: absolute;
+    left: 1300px;
+    right: 165px;
+    top: 600px;
+    bottom: 100px;
+  }
+
+  .position3{
+    position: absolute;
+    right: 1700px;
+    bottom: 100px;
+    top:2210px;
+  }
