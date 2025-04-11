@@ -1,6 +1,5 @@
 .Police-blue-bg{
     background-color: rgb(44, 98, 105);
-    
 }
 .header-txt-color{
     color: white;
@@ -40,7 +39,6 @@
     height: 200px;
     top: 250px;
     left: 165px;
-
 }
 
 .article-body{
@@ -53,8 +51,7 @@
     width: 445px;
     height: 195px;
     gap: 79px;
-    flex-shrink: 0;
-    
+    flex-shrink: 0;  
 }
 
 .menu{
@@ -168,3 +165,74 @@
     width: 100%;
     margin-right: 198px;
 }
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .cta {
+    background-color: #f97f7f;
+    color: #1c2e35;
+    padding: 60px 20px 40px;
+  }
+  
+  .cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cta h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+  }
+  
+  .cta button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #1c2e35;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #002529;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    font-size: 14px;
+  }
+  
+  .footer-left, .footer-middle, .footer-right {
+    margin: 10px;
+  }
+  
+  .logo {
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .copyright {
+    margin-top: 10px;
+  }
+  
