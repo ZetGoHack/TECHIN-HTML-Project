@@ -1,5 +1,7 @@
 .Police-blue-bg{
     background-color: rgb(44, 98, 105);
+    background: #014E56;
+    
 }
 .header-txt-color{
     color: white;
@@ -17,6 +19,7 @@
     font-weight: 700;
     line-height: 100px;
     width: 635px;
+    margin-left: 65px;
 }
 
 .button{
@@ -65,14 +68,9 @@
 }
 
 .position1{
-    left: -100px;
-    right: 1340px;
-    top: 250px;
-    bottom: 250px;
     display: flex;
-    width: 200px;
-    height: 200px;
     flex-shrink: 0;
+    margin-top: 125px;
 }
 
 .gap{
@@ -80,32 +78,215 @@
 }
 
 .gap-above-txt{
-    display: flex;
     width: 445px;
     height: 195px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     gap: 79px;
     flex-shrink: 0;
+    margin-left: 30px;
 }
-
+.flex123{
+    display: flex;
+}
 .txt-position{
-    margin-left: 40px;
     width: auto;
+margin-top: 70px;
 }
 .menu{
     list-style-type: none;
     display: inline-flex;
 }
-
+/* section1 */
 .section1 {
-
+    width: 100%;
+    height: 684px;
+    flex-shrink: 0;
+    background: #012F34;
 }
-
-.section2 {
+.line1{
+    width: 50px;
+    height: 4px;
+    flex-shrink: 0;
+    background: #F67E7E;
+    margin-top: 140px;
+    margin-left: 165px;
+}
+.build{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;  
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    width: 445px;
+    margin-top: 54px;
+    margin-left: 165px;
     
 }
+.group2flex{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+.group2{
+    width: 100px;
+    height: 244px;
+    flex-shrink: 0;
+   margin-top: -99px;
+}
+
+.ex{
+    color: #F67E7E;
+font-family: Livvic;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+margin-left:98px ;
+width: 445px;
+margin-left: 830px;
+
+}
+.our{
+    margin-top: 16px;
+    margin-left: 98px;
+    color: #FFF;
+font-family: Livvic;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; 
+width: 445px;
+margin-left: 830px;
+
+}
+.group11{
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-right:23px ;
+    margin-left: 735px;
+    display: flex;
+    margin-top: -130px;
+}
+.group12{
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-right:23px ;
+    margin-left: 735px;
+}
+
+.group13{
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-right:23px ;
+    margin-left: 735px;
+}
+.text11{
+    margin-top: -82px;
+    margin-bottom: 32px;
+    
+}
+.text12{
+    margin-top: -82px;
+    margin-bottom: 32px;
+}
+.text13{
+    margin-top: -82px;
+}
+/* section2 */
+.section2 {
+    background-color: #004047;
+    height: 745px;
+}
+.section2-div {
+    width: 66%;
+    height: 96px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.section2-div2 {
+    color: white;
+    width: 77%;
+    margin: auto;
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.section2-human {
+    display: inline-block;
+    width: 31.5%;
+    height: 313px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+.section2-human p {
+    margin: 0;
+    margin-top: -25px;
+}
+.section2-avatar {
+    width: 62px;
+    height: 62px;
+    margin-top: 32px;
+    border-radius: 62px;
+    border: 2px solid #C4FFFE;
+}
+.section2-what {
+    font-size: 13px;
+}
+.h1-small {
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.section2-h1 {
+    color: #FFF;
+    margin:auto;
+}
+.section2-h3 {
+    line-height: 28px;
+    color: #79C8C7;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 24px;
+}
+.section2-span {
+    color: #79C8C7;
+}
+
+.section2-div3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin-top: 35px;
+}
+
+/* section2 */
+.font-for-what {
+    font-family: Livvic;
+    font-style: italic;
+}
+.font-for-p {
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: 500;
+}
+.font-for-h3 {
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
 
 .flex{
     display: flex;
