@@ -212,6 +212,26 @@ p{
     margin-top: 76px;
     margin-left: 30px;
 }
+.plus {
+    transform-origin: center;
+    transition: 0.1s linear;
+}
+.plus.tgl-plus {
+    rotate: 45deg;
+}
+.circle {
+    fill: #F67E7E;
+    transition: 0.1s linear;
+}
+.circle:hover {
+    fill: #79C8C7;
+}
+.circle.tgl-circle {
+    fill: #79C8C7;
+}
+.circle.tgl-circle:hover {
+    fill: #F67E7E; 
+}
 .oval{
     width: 96px;
     height: 96px;

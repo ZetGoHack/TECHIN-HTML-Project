@@ -20,6 +20,7 @@
     line-height: 100px;
     width: 635px;
     margin-left: 65px;
+    display: inline-block;
 }
 
 .button{
@@ -50,11 +51,13 @@
 }
 
 .article-body-2{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
     display: inline-block;
-    width: 345px;
-    height: 195px;
-    gap: 79px;
-    flex-shrink: 0;  
 }
 
 .menu{
@@ -423,3 +426,30 @@ body {
     width: 100px;
   }
   
+  .position2{
+    position: absolute;
+    top: 600px;
+    left: 1300px;
+    bottom: 100px;
+    right: 165px;
+  }
+  
+  .position3{
+    position: absolute;
+    top: 2210px;
+    right: 1740px;
+    bottom: 100px;
+    left: 0px;
+  }
+
+  .rectangle{
+    width: 50px;
+    height: 4px;
+    flex-shrink: 0;
+    background: #79C8C7;
+    position: absolute;
+    top: 250px;
+    left: 830px;
+    right: 560px;
+    bottom: 446px;
+  }
