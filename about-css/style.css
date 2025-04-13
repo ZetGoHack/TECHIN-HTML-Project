@@ -222,16 +222,12 @@ p{
     margin-top: 32px;
 }
 /*  */
-.romb *{
-    transition: 0.1s linear;
-}
 .btn {
     margin-top: 20px;
     margin-left: 147px;
 }
 .plus {
     transform-origin: center;
-    transition: 0.1s linear;
 }
 .plus.tgl-plus {
     rotate: 45deg;
@@ -252,6 +248,24 @@ p{
     width: 0;
     height: 0;
     border: 0;
+}
+svg.pos0 {
+    margin-top: 98px;
+}
+svg.pos1 {
+    margin-top: 98px;
+}
+svg.pos2 {
+    margin-top: 98px;
+}
+svg.pos3 {
+    margin-top: 98px;
+}
+svg.pos4 {
+    margin-top: 74px;
+}
+svg.pos5 {
+    margin-top: 74px;
 }
 /*  */
 .blue{

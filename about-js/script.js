@@ -8,7 +8,7 @@ let blocks = [
     block1,block2,block3,
     block4,block5,block6
 ];
-let texts = ['9','1','2','3','“Unique perspectives shape unique products, which is what you need to survive these days.”','“Empowered teams create truly amazing products. Set the north star and let them follow it.”']
+let texts = ['“The first spark is never the final form — iterate until it breathes.”','“Structure creates space for chaos to turn into brilliance.”','“Tech is only as powerful as the problem it’s solving.”','“Relationships move faster than strategy — build trust early.”','“Unique perspectives shape unique products, which is what you need to survive these days.”','“Empowered teams create truly amazing products. Set the north star and let them follow it.”'];
 let professions = ['Founder & CEO','Co-founder & COO','Co-founder & CTO','Business Development Lead','Lead Marketing','Head of Talent']
 
 
@@ -25,7 +25,6 @@ blocks.forEach(block => {
 });
 let counter = 5;
 buttons.forEach((element, counter) => {
-    console.log(professions[counter]);
     element.addEventListener("click", () => {
         element.lastElementChild.classList.toggle("tgl-plus");
         element.firstElementChild.classList.toggle("tgl-circle");
@@ -41,6 +40,7 @@ buttons.forEach((element, counter) => {
                     else {
                         elmnt.textContent = texts[counter];
                     }
+                    element.classList.toggle(`pos${counter}`);
                     elmnt.classList.toggle("state");
                 }
             }
