@@ -622,10 +622,15 @@ margin-left: 400px;
     bottom: 100px;
     }
   .position3{
-    display: flex;
-    margin-top: 56px;
+    position: absolute;
+    right: 1700px;
+    bottom: 100px;
+    left: 0px;
+    top:2130px;
   }
-
+  .footer-button{
+    margin-top: -10px;
+  }
 
   
    /* tablet size */
@@ -657,4 +662,9 @@ margin-left: 400px;
     .flex{
         width: 300px;
     }
+  }
+
+
+  @media (max-width: 770px){
+    
   }

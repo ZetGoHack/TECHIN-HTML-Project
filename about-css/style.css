@@ -23,6 +23,7 @@ body{
     width:  100%;
     height: 200px;
     background: #F67E7E;
+    color: #1c2e35;
 }
 .footer2{
     width:  100%;
@@ -291,3 +292,154 @@ svg.pos5 {
     line-height: 25px; 
     width: 302px;
 }
+
+.position1{
+    position: absolute;
+    top: 1518px;
+    bottom: 100px;
+    left: 0px;
+    right: 1300px;
+}
+
+.position2{
+    position: absolute;
+    top: 2012px;
+    bottom: 100px;
+    left: 0px;
+    right: 1300px;
+}
+
+.txt-style{
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+}
+
+.txt-box-size{
+    width: 1020px;
+    position: absolute;
+    top:1600px;
+    left: 233px;
+    right: 633px;
+    bottom: 100px;
+}
+
+.position3{
+    position: absolute;
+    top: 1700px;
+    bottom: 100px;
+    left: 400px;
+    right: 600px;
+}
+
+.cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+
+  #buttonContactss{
+    text-decoration: none;
+    color: #012F34;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 24px;
+    border: 2px solid #012F34;
+    /* display: inline-block; */
+    flex-shrink: 0;
+    margin-top: 73px;
+    padding-top: 9px;
+    padding-bottom:11px ;
+    padding-left: 32px;
+    padding-right: 33px;
+    width: 88px;
+    height: 28px;
+    margin-left:557px ;
+}
+
+.position4{
+    position: absolute;
+    top: 2050px;
+    left: 100px;
+    right: 100px;
+    bottom: 0px;
+}
+
+.team{
+    margin-left: 135px;
+}
+
+.homeF{
+    margin-left: 135px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+    margin-top: 25px;
+    text-decoration: none;
+}
+.aboutF{
+    margin-left: 40px;color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.position5{
+    position: absolute;
+    left: -20px;
+    top: 2200px;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+  .footer-middle{
+    margin: 10px;
+  }
+
+  .STY{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; 
+    opacity: 0.6;
+    margin-top: -8px;
+    margin-left: 125px;
+    width: 445px;
+}
+
+.cta h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+  }
+  
+  .cta button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #1c2e35;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
