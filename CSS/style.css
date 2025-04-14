@@ -598,9 +598,11 @@ width: 445px;
     right: 1700px;
     bottom: 100px;
     left: 0px;
-    top:2210px;
+    top:2130px;
   }
-
+  .footer-button{
+    margin-top: -10px;
+  }
 
   
    /* tablet size */
