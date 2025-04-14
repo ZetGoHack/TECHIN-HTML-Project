@@ -291,3 +291,47 @@ svg.pos5 {
     line-height: 25px; 
     width: 302px;
 }
+
+.position1{
+    position: absolute;
+    top: 1518px;
+    bottom: 100px;
+    left: 0px;
+    right: 1300px;
+}
+
+.position2{
+    position: absolute;
+    top: 2012px;
+    bottom: 100px;
+    left: 0px;
+    right: 1300px;
+}
+
+.txt-style{
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+}
+
+.txt-box-size{
+    width: 1020px;
+    position: absolute;
+    top:1600px;
+    left: 233px;
+    right: 633px;
+    bottom: 100px;
+}
+
+.position3{
+    position: absolute;
+    top: 1700px;
+    bottom: 100px;
+    left: 400px;
+    right: 600px;
+}
+

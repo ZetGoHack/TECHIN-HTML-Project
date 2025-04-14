@@ -601,3 +601,8 @@ body {
         width: 300px;
     }
   }
+
+
+  @media (max-width: 770px){
+    
+  }
