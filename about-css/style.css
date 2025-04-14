@@ -303,7 +303,7 @@ svg.pos5 {
 
 .position2{
     position: absolute;
-    top: 1965px;
+    top: 2012px;
     bottom: 100px;
     left: 0px;
     right: 1300px;
@@ -382,13 +382,13 @@ svg.pos5 {
 .homeF{
     margin-left: 135px;
     color: #FFF;
-font-family: Livvic;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 28px; 
-margin-top: 25px;
-text-decoration: none;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+    margin-top: 25px;
+    text-decoration: none;
 }
 .aboutF{
     margin-left: 40px;color: #FFF;
@@ -426,3 +426,20 @@ text-decoration: none;
     margin-left: 125px;
     width: 445px;
 }
+
+.cta h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+  }
+  
+  .cta button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #1c2e35;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
