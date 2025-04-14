@@ -212,34 +212,62 @@ p{
     margin-top: 76px;
     margin-left: 30px;
 }
+.oval{
+    display: block;
+    width: 96px;
+    height: 96px;
+    border-radius: 96px;
+    border: 2px solid #C4FFFE;
+    margin: auto;
+    margin-top: 32px;
+}
+/*  */
+.btn {
+    margin-top: 20px;
+    margin-left: 147px;
+}
 .plus {
     transform-origin: center;
-    transition: 0.1s linear;
 }
 .plus.tgl-plus {
     rotate: 45deg;
 }
 .circle {
     fill: #F67E7E;
-    transition: 0.1s linear;
-}
-.circle:hover {
-    fill: #79C8C7;
 }
 .circle.tgl-circle {
     fill: #79C8C7;
 }
-.circle.tgl-circle:hover {
+.btn:hover .circle {
+    fill: #79C8C7;
+}
+.btn:hover .circle.tgl-circle {
     fill: #F67E7E; 
 }
-.oval{
-    width: 96px;
-    height: 96px;
-    border-radius: 96px;
-    border: 2px solid #C4FFFE;
-    margin-top: 32px;
-    margin-left: 127px;
+.invisible {
+    width: 0;
+    height: 0;
+    border: 0;
 }
+svg.pos0 {
+    margin-top: 98px;
+}
+svg.pos1 {
+    margin-top: 98px;
+}
+svg.pos2 {
+    margin-top: 98px;
+}
+svg.pos3 {
+    margin-top: 98px;
+}
+svg.pos4 {
+    margin-top: 74px;
+}
+svg.pos5 {
+    margin-top: 74px;
+}
+/*  */
 .blue{
     margin-left: 24px;
     margin-top: 16px;
@@ -262,28 +290,4 @@ p{
     font-weight: 500;
     line-height: 25px; 
     width: 302px;
-}
-#btn1{
-    margin-top: 20px;
-    margin-left: 147px;
-}
-#btn2{
-    margin-top: 20px;
-    margin-left: 147px;
-}
-#btn3{
-    margin-top: 20px;
-    margin-left: 147px;
-}
-#btn4{
-    margin-top: 20px;
-    margin-left: 147px;
-}
-#btn5{
-    margin-top: 20px;
-    margin-left: 147px;
-}
-#btn6{
-    margin-top: 20px;
-    margin-left: 147px;
 }
