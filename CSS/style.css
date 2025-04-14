@@ -68,11 +68,6 @@
     height: 700px;
 }
 
-.position1{
-    display: flex;
-    flex-shrink: 0;
-    margin-top: 125px;
-}
 
 .gap{
     margin-left: 50px;
@@ -497,7 +492,6 @@ body {
     background-color: #002529;
     color: white;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding: 40px 20px;
     font-size: 14px;
@@ -513,16 +507,52 @@ body {
   
   nav a {
     display: inline-block;
-    margin-right: 10px;
     text-decoration: none;
     color: white;
   }
-  
+  .team{
+    margin-left: 135px;
+}
+.homeF{
+    margin-left: 135px;
+    color: #FFF;
+font-family: Livvic;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+margin-top: 25px;
+}
+.aboutF{
+    margin-left: 40px;color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 25px;
+}
+.STY{
+    color: #FFF;
+font-family: Livvic;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; 
+opacity: 0.6;
+margin-top: -8px;
+margin-left: 125px;
+width: 445px;
+}
+
   .social-icons img {
     width: 24px;
-    margin-right: 10px;
   }
-  
+  .icon{
+    width: 104px;
+    height: 24px;
+    flex-shrink: 0;
+  }
   .copyright {
     margin-top: 10px;
   }
@@ -530,19 +560,62 @@ body {
   .icons-size{
     width: 100px;
   }
-  
-
-  .position2{
+  .position1{
+    display: flex;
+    flex-shrink: 0;
+    margin-top: 125px;
+}
+.position2{
     position: absolute;
     left: 1300px;
     right: 165px;
     top: 600px;
     bottom: 100px;
-  }
-
+    }
   .position3{
     position: absolute;
     right: 1700px;
     bottom: 100px;
-    top:2210px;
+    left: 0px;
+    top:2130px;
+  }
+  .footer-button{
+    margin-top: -10px;
+  }
+
+  
+   /* tablet size */
+  @media (max-width: 1024px){
+    .position2{
+        left: 293px;
+        right: 393px;
+        bottom: 100px;
+        top: 600px;
+    }
+    .position1{
+        display: none;
+    }
+    .gap-above-txt{
+        position: absolute;
+        top: 400px;
+        bottom: 100px;
+        left: 293px;
+        right: 393px;
+    }
+    .txt-config{
+        position: absolute;
+        top: 100px;
+        bottom: 100px;
+        left: 193px;
+        right: 393px;
+        width: 600px;
+    }
+    .flex{
+        width: 300px;
+    }
+  }
+
+
+  @media (max-width: 770px){
+    
   }
