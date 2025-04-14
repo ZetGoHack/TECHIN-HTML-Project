@@ -105,29 +105,23 @@ margin-top: 70px;
 /* section1 */
 .section1 {
     width: 100%;
-    height: 684px;
-    flex-shrink: 0;
     background: #012F34;
 }
 .line1{
     width: 50px;
     height: 4px;
-    flex-shrink: 0;
     background: #F67E7E;
     margin-top: 140px;
     margin-left: 165px;
 }
 .build{
     color: #FFF;
-    font-family: "Livvic", sans-serif;  
+    font-family: "Livvic", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    line-height: 48px; 
-    width: 445px;
-    margin-top: 54px;
-    margin-left: 165px;
-    
+    line-height: 48px;
+    width: 40%;
 }
 .group2flex{
     width: 100%;
@@ -147,64 +141,52 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 28px;
-margin-left:98px ;
-width: 445px;
-margin-left: 830px;
 
 }
+.sectionflex2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 54px;
+    justify-content: space-between;
+}
 .our{
-    margin-top: 16px;
-    margin-left: 98px;
     color: #FFF;
-font-family: Livvic;
-font-size: 15px;
-font-style: normal;
-font-weight: 600;
-line-height: 25px; 
-width: 445px;
-margin-left: 830px;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    width: 100%;
 
 }
 .group11{
     width: 72px;
     height: 72px;
-    flex-shrink: 0;
-    margin-right:23px ;
-    margin-left: 735px;
-    display: flex;
-    margin-top: -130px;
 }
 .group12{
     width: 72px;
     height: 72px;
-
-    margin-right:23px ;
-    margin-left: 735px;
 }
 
 .group13{
     width: 72px;
     height: 72px;
-    flex-shrink: 0;
-    margin-right:23px ;
-    margin-left: 735px;
-}
-.text11{
-    margin-top: -82px;
-    margin-bottom: 32px;
-    
-}
-.text12{
-    margin-top: -82px;
-    margin-bottom: 32px;
-}
-.text13{
-    margin-top: -82px;
 }
 .for1{
-    margin: auto;
-    width: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
+.for1 .textarea {
+    display: flex;
+    width: 100%;
+}
+.textarea .image {
+    margin: 0 20px 20px 0;
+}
+
 /* section2 */
 /* mobile */
 .section2 {
@@ -395,9 +377,6 @@ margin-left: 830px;
     font-style: normal;
     font-weight: 700;
 }
-
-
-
 .flex{
     display: flex;
 }

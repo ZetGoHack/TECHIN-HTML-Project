@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
 }
 .header{
@@ -164,6 +164,12 @@ p{
     width: 75%;
     margin: auto;
 }
+.romb {
+    position: relative;
+}
+.romb * {
+    transition: 0.1s linear;
+}
 #romb1{
     width: 350px;
     height: 253px;
@@ -225,6 +231,8 @@ p{
 .btn {
     margin-top: 20px;
     margin-left: 147px;
+    position: absolute;
+    bottom: -28px;
 }
 .plus {
     transform-origin: center;
@@ -250,22 +258,22 @@ p{
     border: 0;
 }
 svg.pos0 {
-    margin-top: 98px;
+    margin-top: 95px;
 }
 svg.pos1 {
-    margin-top: 98px;
+    margin-top: 95px;
 }
 svg.pos2 {
-    margin-top: 98px;
+    margin-top: 95px;
 }
 svg.pos3 {
-    margin-top: 98px;
+    margin-top: 95px;
 }
 svg.pos4 {
-    margin-top: 74px;
+    margin-top: 70px;
 }
 svg.pos5 {
-    margin-top: 74px;
+    margin-top: 70px;
 }
 /*  */
 .blue{
