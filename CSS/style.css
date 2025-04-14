@@ -144,7 +144,7 @@ font-weight: 700;
 line-height: 28px;
 margin-left:98px ;
 width: 445px;
-margin-left: 830px;
+margin-left: 730px;
 
 }
 .our{
@@ -157,7 +157,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 25px; 
 width: 445px;
-margin-left: 830px;
+margin-left: 730px;
 
 }
 .group11{
@@ -165,7 +165,7 @@ margin-left: 830px;
     height: 72px;
     flex-shrink: 0;
     margin-right:23px ;
-    margin-left: 735px;
+    margin-left: 635px;
     display: flex;
     margin-top: -130px;
 }
@@ -174,7 +174,7 @@ margin-left: 830px;
     height: 72px;
 
     margin-right:23px ;
-    margin-left: 735px;
+    margin-left: 635px;
 }
 
 .group13{
@@ -182,7 +182,7 @@ margin-left: 830px;
     height: 72px;
     flex-shrink: 0;
     margin-right:23px ;
-    margin-left: 735px;
+    margin-left: 635px;
 }
 .text11{
     margin-top: -82px;
@@ -198,7 +198,7 @@ margin-left: 830px;
 }
 .for1{
     margin: auto;
-    width: 90%;
+    width: 80%;
 }
 /* section2 */
 /* mobile */
@@ -513,7 +513,6 @@ body {
     background-color: #002529;
     color: white;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding: 40px 20px;
     font-size: 14px;
@@ -529,16 +528,52 @@ body {
   
   nav a {
     display: inline-block;
-    margin-right: 10px;
     text-decoration: none;
     color: white;
   }
-  
+  .team{
+    margin-left: 135px;
+}
+.homeF{
+    margin-left: 135px;
+    color: #FFF;
+font-family: Livvic;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+margin-top: 25px;
+}
+.aboutF{
+    margin-left: 40px;color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 25px;
+}
+.STY{
+    color: #FFF;
+font-family: Livvic;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; 
+opacity: 0.6;
+margin-top: -8px;
+margin-left: 125px;
+width: 445px;
+}
+
   .social-icons img {
     width: 24px;
-    margin-right: 10px;
   }
-  
+  .icon{
+    width: 104px;
+    height: 24px;
+    flex-shrink: 0;
+  }
   .copyright {
     margin-top: 10px;
   }
@@ -558,9 +593,6 @@ body {
     top: 600px;
     bottom: 100px;
     }
-
-
-
   .position3{
     position: absolute;
     right: 1700px;
