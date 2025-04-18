@@ -400,22 +400,78 @@ svg.pos5 {
     bottom: 0px;
 }
 
+.STY{
+    color: #FFF;
+font-family: Livvic;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; 
+opacity: 0.6;
+margin-top: -8px;
+margin-left: 125px;
+width: 445px;
+}
 
-  .footer-middle{
-    margin: 10px;
-  }
+.position6{
+    position: absolute;
+    top: 2250px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
 
-  .STY{
+.info{
+    position: absolute;
+    top: 2220px;
+    bottom: 100px;
+    right: 600px;
+    left: 100px;
+
+}
+
+.info-txt{
     color: #FFF;
     font-family: Livvic;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-    line-height: 25px; 
+    line-height: 25px;
     opacity: 0.6;
-    margin-top: -8px;
-    margin-left: 125px;
-    width: 445px;
+    text-align: left;
+}
+
+.copyright-txt{
+    color: #FFF;
+    text-align: right;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+
+.position6{
+    position: absolute;
+    top: 2270px;
+    bottom: 100px;
+    left: 900px;
+    right: 100px;
+}
+
+.position7{
+    position: absolute;
+    top: 2190px;
+    bottom: 100px;
+    left: 1600px;
+    right: 100px;
+    color: white;
+}
+
+.size{
+    width: 300px;
+    height: 200px;
 }
 
 .cta h2 {

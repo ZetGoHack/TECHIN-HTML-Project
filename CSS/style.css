@@ -11,17 +11,7 @@
     flex-shrink: 0;
 }
 
-.txt-config{
-    color: #FFF;
-    font-family: Livvic;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 100px;
-    width: 635px;
-    margin-left: 65px;
-    display: inline-block;
-}
+
 
 .button{
     border-radius: 24px;
@@ -73,19 +63,7 @@
     margin-left: 50px;
 }
 
-.gap-above-txt{
-    width: 445px;
-    height: 195px;
-    gap: 79px;
-    flex-shrink: 0;
-    margin-left: 30px;
-    color: #FFF;
-    font-family: Livvic;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 28px;
-}
+
 .flex123{
     display: flex;
 }
@@ -269,6 +247,60 @@ line-height: 28px;
     height: 100px;
 }
 /* mobile */
+@media (max-width: 767px){
+    .position1{
+        display: none;
+    } 
+    .position2{
+        position: absolute;
+        left: 200px;
+        right: 100px;
+        bottom: 100px;
+        top: 600px;
+    }
+    .txt-config{
+        position: absolute;
+        top: 180px;
+        bottom: 100px;
+        left: 193px;
+        right: 393px;
+        width: 600px;
+        font-size: 55px;
+        width: 300px;
+        text-align: center;
+    }
+    .gap-above-txt{
+        position: absolute;
+        top: 350px;
+        bottom: 100px;
+        left: 193px;
+        right: 393px;
+        font-size: 25px;
+    }
+    #buttonHome{
+        display: none;
+    }
+    #buttonAbout{
+        display: none;
+    }
+    .myteam{
+        position: absolute;
+        top: 5px;
+        bottom: 100px;
+        left: -120px;
+        right: 600px;
+    }
+    #buttonContacts{
+        display: none;
+    }
+    .flex2{
+        display: none;    
+    }
+    .display{
+        display: none;
+    }
+}
+/* mobile */
 
 /* tablet */
 @media (min-width: 768px) and (max-width: 1440px) {
@@ -280,6 +312,58 @@ line-height: 28px;
     }
     .section2-what {
         height: 75px;
+    }
+    .position2{
+        position: absolute;
+        left: 293px;
+        right: 393px;
+        bottom: 100px;
+        top: 600px;
+    }
+    .position1{
+        display: none;
+    }
+    .gap-above-txt{
+        position: absolute;
+        top: 400px;
+        bottom: 100px;
+        left: 293px;
+        right: 393px;
+    }
+    .txt-config{
+        position: absolute;
+        top: 240px;
+        bottom: 100px;
+        left: 293px;
+        right: 393px;
+        width: 600px;
+        font-size: 50px;
+        width: 300px;
+        text-align: center;
+    }
+    .flex{
+        width: 300px;
+    }
+    #buttonContacts{
+        text-decoration: none;
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        border-radius: 24px;
+        border: 2px solid #FFF;
+        display: inline-block;
+        flex-shrink: 0;
+        margin-top: 73px;
+        padding-top: 9px;
+        padding-bottom:11px ;
+        padding-left: 32px;
+        padding-right: 33px;
+        width: 88px;
+        height: 28px;
+        margin-left:557px ;
     }
 }
 /* tablet */
@@ -299,6 +383,66 @@ line-height: 28px;
     .section2-human {
         width: 31.5%;
     }
+    .flex{
+        display: flex;
+    }
+    .txt-config{
+        color: #FFF;
+        font-family: Livvic;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100px;
+        width: 635px;
+        margin-left: 65px;
+        display: inline-block;
+    }
+    .gap-above-txt{
+        width: 445px;
+        height: 195px;
+        gap: 79px;
+        flex-shrink: 0;
+        margin-left: 30px;
+        color: #FFF;
+        font-family: Livvic;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    .position1{
+        display: flex;
+        flex-shrink: 0;
+        margin-top: 125px;
+    }
+    .position2{
+        position: absolute;
+        left: 1300px;
+        right: 165px;
+        top: 600px;
+        bottom: 100px;
+        }
+        #buttonContacts{
+            text-decoration: none;
+            color: #FFF;
+            font-family: "Livvic", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px;
+            border-radius: 24px;
+            border: 2px solid #FFF;
+            display: inline-block;
+            flex-shrink: 0;
+            margin-top: 73px;
+            padding-top: 9px;
+            padding-bottom:11px ;
+            padding-left: 32px;
+            padding-right: 33px;
+            width: 88px;
+            height: 28px;
+            margin-left:557px ;
+        }
 }
 /* desktop */
 
@@ -404,27 +548,6 @@ line-height: 28px;
     margin-top: 83px;
     margin-left: 40px;
 }
-#buttonContacts{
-    text-decoration: none;
-    color: #FFF;
-    font-family: "Livvic", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 28px;
-    border-radius: 24px;
-    border: 2px solid #FFF;
-    display: inline-block;
-    flex-shrink: 0;
-    margin-top: 73px;
-    padding-top: 9px;
-    padding-bottom:11px ;
-    padding-left: 32px;
-    padding-right: 33px;
-    width: 88px;
-    height: 28px;
-    margin-left:557px ;
-}
 #buttonContactss{
     text-decoration: none;
     color: #012F34;
@@ -527,12 +650,12 @@ body {
 .homeF{
     margin-left: 135px;
     color: #FFF;
-font-family: Livvic;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 28px; 
-margin-top: 25px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+    margin-top: 25px;
 }
 .aboutF{
     margin-left: 40px;color: #FFF;
@@ -543,18 +666,19 @@ margin-top: 25px;
     line-height: 28px;
     margin-top: 25px;
 }
+
 .STY{
     color: #FFF;
-font-family: Livvic;
-font-size: 15px;
-font-style: normal;
-font-weight: 600;
-line-height: 25px; 
-opacity: 0.6;
-margin-top: -8px;
-margin-left: 125px;
-width: 445px;
-margin-top: 48px;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; 
+    opacity: 0.6;
+    margin-top: -8px;
+    margin-left: 125px;
+    width: 445px;
+    margin-top: 48px;
 }
 
   .social-icons {
@@ -565,16 +689,16 @@ margin-top: 48px;
   .copyright {
     margin-top: 10px;
     color: #FFF;
-text-align: right;
-font-family: Livvic;
-font-size: 15px;
-font-style: normal;
-font-weight: 600;
-line-height: 25px; 
-opacity: 0.6;
-width: 255px;
-margin-top: 135px;
-margin-left: 400px;
+    text-align: right;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; 
+    opacity: 0.6;
+    width: 255px;
+    margin-top: 135px;
+    margin-left: 400px;
   }
 .footer-right{
     display: flex;
@@ -583,24 +707,13 @@ margin-left: 400px;
   .icons-size{
     width: 100px;
   }
-  .position1{
-    display: flex;
-    flex-shrink: 0;
-    margin-top: 125px;
-}
 .copi{
     display: flex;
     justify-content: end;
     width: 100%;
     margin-right: 160px;
 }
-.position2{
-    position: absolute;
-    left: 1300px;
-    right: 165px;
-    top: 600px;
-    bottom: 100px;
-    }
+
   .position3{
     position: absolute;
     right: 1700px;
@@ -613,38 +726,3 @@ margin-left: 400px;
   }
 
   
-   /* tablet size */
-  @media (max-width: 1024px){
-    .position2{
-        left: 293px;
-        right: 393px;
-        bottom: 100px;
-        top: 600px;
-    }
-    .position1{
-        display: none;
-    }
-    .gap-above-txt{
-        position: absolute;
-        top: 400px;
-        bottom: 100px;
-        left: 293px;
-        right: 393px;
-    }
-    .txt-config{
-        position: absolute;
-        top: 100px;
-        bottom: 100px;
-        left: 193px;
-        right: 393px;
-        width: 600px;
-    }
-    .flex{
-        width: 300px;
-    }
-  }
-
-
-  @media (max-width: 770px){
-    
-  }
