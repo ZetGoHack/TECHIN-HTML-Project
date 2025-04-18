@@ -17,7 +17,7 @@ let professions = ['Founder & CEO','Co-founder & COO','Co-founder & CTO','Busine
 let buttons = [];
 blocks.forEach(block => {
     for (let elmnt of block.children) {
-        if (elmnt.tagName == "svg") {
+        if (elmnt.tagName.toLowerCase() == "button") {
             buttons.push(elmnt);
             break;
         }
@@ -26,9 +26,11 @@ blocks.forEach(block => {
 let counter = 5;
 buttons.forEach((element, counter) => {
     element.addEventListener("click", () => {
-        element.lastElementChild.classList.toggle("tgl-plus");
-        element.firstElementChild.classList.toggle("tgl-circle");
+        element.children[0].lastElementChild.classList.toggle("tgl-plus");
+        element.children[0].firstElementChild.classList.toggle("tgl-circle");
+        element.parentElement.classList.toggle("backgrnd");
         for (let elmnt of element.parentElement.children) {
+            
             if (elmnt.tagName == "IMG") {
                 elmnt.classList.toggle("invisible");
             }

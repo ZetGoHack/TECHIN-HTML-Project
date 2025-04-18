@@ -146,10 +146,6 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 48px;
-    display: flex;
-    margin-left: 500px;
-    margin-top: -47px;
-    margin-bottom: 64px;
 }
 .flex3{
     width: 75%;
@@ -167,58 +163,45 @@ p{
 }
 .romb {
     position: relative;
-}
-.romb * {
-    transition: 0.1s linear;
-}
-#romb1{
     width: 350px;
     height: 253px;
     flex-shrink: 0;
     background: #012F34;
+    transition: 0.1s linear;
+}
+.romb * {
+    transition: 0.1s linear;
+    
+}
+.romb button {
+    background: none;
+    border: unset;
+}
+#romb1{
    margin-left: 160px;
    
 
 }
 #romb2{
-    width: 350px;
-    height: 253px;
-    flex-shrink: 0;
-    background: #012F34;
     margin-left: 30px;
     
 }
 #romb3{
-    width: 350px;
-    height: 253px;
-    flex-shrink: 0;
-    background: #012F34;
     margin-left: 30px;
 }
 #romb4{
-    width: 350px;
-    height: 253px;
-    flex-shrink: 0;
-    background: #012F34;
     margin-top: 76px;
     margin-left: 160px;
 }
 #romb5{
-    width: 350px;
-    height: 253px;
-    flex-shrink: 0;
-    background: #012F34;
     margin-top: 76px;
     margin-left: 30px;
 }
 #romb6{
-    width: 350px;
-    height: 253px;
-    flex-shrink: 0;
-    background: #012F34;
     margin-top: 76px;
     margin-left: 30px;
 }
+
 .oval{
     display: block;
     width: 96px;
@@ -450,4 +433,6 @@ svg.pos5 {
     border-radius: 20px;
     cursor: pointer;
   }
-  
+  .backgrnd {
+    background-color: #002529;
+}
