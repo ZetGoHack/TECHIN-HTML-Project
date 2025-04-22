@@ -455,6 +455,79 @@ svg.pos5 {
         bottom: 100px;
         height: 300px;
     }
+    .info{
+        text-align: center;
+        width: 400px;
+        position: absolute;
+        top: 2250px;
+        bottom: 100px;
+        right: 450px;
+        left: 150px;
+    }
+    .info-txt{
+        text-align: center;
+    }
+    .position7{
+        position: absolute;
+        top: 2380px;
+        bottom: 100px;
+        right: 100px;
+        left: 323px;
+    }
+    .position6{
+        position: absolute;
+        top: 2390px;
+        bottom: 100px;
+        right: 295px;
+        left: 123px; 
+    }
+    .position4{
+        position: absolute;
+        top: 2030px;
+        bottom: 100px;
+        right: 195px;
+        left: 203px; 
+    }
+    #buttonContactss{
+        color: #012F34;
+        font-family: "Livvic", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        border-radius: 24px;
+        text-decoration: none;
+        border: 2px solid #012F34;
+        text-decoration: none;
+        flex-shrink: 0;
+        margin-top: 73px;
+        padding-top: 9px;
+        padding-bottom:11px ;
+        padding-left: 32px;
+        padding-right: 33px;
+        width: 88px;
+        height: 28px;
+    }
+    .position9{
+        position: absolute;
+        top: -10px;
+        bottom: 100px;
+        left: 100px;
+        right: 195px;
+    }
+    .txt-style2{
+        text-align: center;
+    }
+    .position5{
+        position: absolute;
+        top: 2180px;
+        right: 195px;
+        left: 140px; 
+        bottom: 100px;
+    }
+    .footer2{
+        height: 300px;
+    }
 }
 /* mobile */
 
