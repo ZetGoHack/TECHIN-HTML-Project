@@ -164,6 +164,7 @@ p{
     margin-top: 6.4%;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 36.375em;
 }
 .romb {
     position: relative;
