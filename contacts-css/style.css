@@ -41,6 +41,7 @@ nav a {
     justify-content: space-between;
     align-items: center;
     padding: 50px 10%;
+    height: 373px;
 }
  
 .info {
@@ -149,3 +150,70 @@ footer {
     text-align: center;
     width: 100%;
 }
+
+.flex2{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-right: 198px;
+}
+
+.flex{
+    display: flex;
+}
+
+.button-txt{
+    color: white;
+    text-decoration: none;
+}
+
+#button-Home{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-decoration: none;
+    margin-top: 83px;
+    margin-left: 80px;
+}
+#button-About{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-decoration: none;
+    margin-top: 83px;
+    margin-left: 40px;
+}
+#button-Contacts{
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    display: inline-block;
+    flex-shrink: 0;
+    margin-top: 73px;
+    padding-top: 9px;
+    padding-bottom:11px ;
+    padding-left: 32px;
+    padding-right: 33px;
+    width: 88px;
+    height: 28px;
+    margin-left:557px ;
+}
+
+.myteam{
+    margin-left:165px ;
+    margin-top:77px ;
+    width: 160px;
+    height: 40px;
+ }
