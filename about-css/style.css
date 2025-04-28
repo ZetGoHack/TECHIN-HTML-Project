@@ -1,14 +1,13 @@
 body {
     margin: 0;
+    background-color: rgb(44, 98, 105);
 }
 .header{
     width:  100%;
     height: 517px;
     background: #014E56;
 }
-.flex{
-    display: flex;
-}
+
 .section1{
     width:  100%;
     height: 42.6%;
@@ -30,11 +29,24 @@ body {
     height: 196px;
     background: #002529;
 }
+
 .myteam{
-   margin-left:165px ;
-   margin-top:77px ;
-   width: 160px;
-   height: 40px;
+    width: 17.8%;
+}
+.a1{
+    width: 6.9%;
+    margin-top: 4px;
+}
+.a2{
+    width: 82.2%;
+    margin-top: -4px;
+    justify-content: end;
+    display: flex;
+}
+.line2{
+    margin-top: 110px;
+    position: absolute;
+    margin-left: 390px;
 }
 #buttonHome{
     color: #FFF;
@@ -44,8 +56,7 @@ body {
     font-weight: 600;
     line-height: 28px; 
     text-decoration: none;
-    margin-top: 83px;
-    margin-left: 80px;
+   
 }
 #buttonAbout{
     color: #FFF;
@@ -55,8 +66,7 @@ body {
     font-weight: 600;
     line-height: 28px; 
     text-decoration: none;
-    margin-top: 83px;
-    margin-left: 40px;
+  
 }
 #buttonContacts{
     text-decoration: none;
@@ -70,20 +80,14 @@ body {
     border: 2px solid #FFF;
     display: inline-block;
     flex-shrink: 0;
-    margin-top: 73px;
     padding-top: 9px;
     padding-bottom:11px ;
     padding-left: 32px;
     padding-right: 33px;
     width: 88px;
     height: 28px;
-    margin-left:557px ;
 }
-.line1{
-    width: 50px;
-    height: 4px;
-    margin-bottom: 40px;
-}
+
 .about{
     width: 350px;
     height: 100px;
@@ -93,8 +97,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 100px; 
-    margin-top: 124px;
-    margin-left: 165px;
+    margin-top: 130px;
 }
 .text1{
     color: #FFF;
@@ -103,13 +106,21 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
-    width: 730px;
+    width: 38%;
+    margin-top: 170px;
+    position: absolute;
+    margin-left: 390px;
 }
 .group1{
     width: 100px;
     height: 200px;
     flex-shrink: 0;
-    margin-top: 192px;
+}
+.group2{
+    width: 100%;
+    justify-content: end;
+    margin-top: -40px;
+    display: flex;
 }
 .flexpos {
     position: relative;
@@ -126,7 +137,21 @@ body {
 }
 .flex1{
     display: flex;
-    justify-content: end;
+    margin-top: -40px;
+}
+.bigdiv{
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    border: solid 1px rgba(0, 0, 0, 0);
+}
+.textarea1{
+    display: flex;
+    width: 100%;
+    margin-top: 77px;
+}
+.textarea2{
+    display: flex;
     width: 100%;
 }
 .flex2{
