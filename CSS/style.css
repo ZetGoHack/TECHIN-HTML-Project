@@ -10,9 +10,9 @@
     font-style: normal;
     flex-shrink: 0;
 }
-
-
-
+body{
+    background-color: rgb(44, 98, 105);
+}
 .button{
     border-radius: 24px;
     border: 2px solid #FFF;
@@ -81,11 +81,14 @@ margin-top: 70px;
     background: #012F34;
 }
 .line1{
-    width: 50px;
-    height: 4px;
     background: #F67E7E;
     margin-top: 140px;
-    margin-left: 165px;
+    position: relative;
+}
+.line2{
+    margin: auto;
+  width: 80%;
+    
 }
 .build{
     color: #FFF;
