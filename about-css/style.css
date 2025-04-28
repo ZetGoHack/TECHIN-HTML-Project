@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: rgb(44, 98, 105);
 }
 .header{
     width:  100%;
@@ -28,18 +29,24 @@ body {
     height: 196px;
     background: #002529;
 }
+
 .myteam{
-   width: 160px;
-   height: 40px;
-}
-.myteam1{
-    width: 15.8%;
+    width: 17.8%;
 }
 .a1{
     width: 6.9%;
+    margin-top: 4px;
 }
 .a2{
-    width: 8.2%;
+    width: 82.2%;
+    margin-top: -4px;
+    justify-content: end;
+    display: flex;
+}
+.line2{
+    margin-top: 110px;
+    position: absolute;
+    margin-left: 390px;
 }
 #buttonHome{
     color: #FFF;
@@ -80,10 +87,7 @@ body {
     width: 88px;
     height: 28px;
 }
-.line1{
-    width: 50px;
-    height: 4px;
-}
+
 .about{
     width: 350px;
     height: 100px;
@@ -93,6 +97,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 100px; 
+    margin-top: 130px;
 }
 .text1{
     color: #FFF;
@@ -101,12 +106,21 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
-    width: 730px;
+    width: 38%;
+    margin-top: 170px;
+    position: absolute;
+    margin-left: 390px;
 }
 .group1{
     width: 100px;
     height: 200px;
     flex-shrink: 0;
+}
+.group2{
+    justify-content: end;
+    width: 100%;
+    display: flex;
+    margin-top: -40px;
 }
 .bigdiv{
     width: 80%;
