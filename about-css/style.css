@@ -280,13 +280,7 @@ svg.pos5 {
     line-height: 25px; 
 }
 
-.position2{
-    position: absolute;
-    top: 2012px;
-    bottom: 100px;
-    left: 0px;
-    right: 1300px;
-}
+
 
 .txt-style{
     color: #FFF;
@@ -422,6 +416,13 @@ svg.pos5 {
     }
     .position8{
         display: none;
+    }
+    .position2{
+        position: absolute;
+        top: 2013px;
+        bottom: 100px;
+        left: 0px;
+        right: 1300px;
     }
     .txt-box-size{
         width: 1020px;
@@ -630,6 +631,13 @@ svg.pos5 {
         left: 800px;
         right: 1000px;
     }
+    .position2{
+        position: absolute;
+        top: 2029px;
+        bottom: 100px;
+        left: 0px;
+        right: 1300px;
+    }
 }
 /* tablet */
 
@@ -641,17 +649,24 @@ svg.pos5 {
     .position11{
         display: none;
     }
+    .position2{
+        position: absolute;
+        top: 2085px;
+        bottom: 100px;
+        left: 0px;
+        right: 1300px;
+    }
     .position7{
         position: absolute;
-        top: 2190px;
+        top: 2290px;
         bottom: 100px;
-        left: 1400px;
+        left: 1450px;
         right: 100px;
         color: white;
     }
     .position6{
         position: absolute;
-        top: 2200px;
+        top: 2300px;
         bottom: 100px;
         left: 200px;
         right: 280px;
@@ -659,13 +674,13 @@ svg.pos5 {
     .position5{
         position: absolute;
         left: -20px;
-        top: 2200px;
+        top: 2300px;
         right: 0px;
         bottom: 0px;
     }
     .position4{
         position: absolute;
-        top: 2050px;
+        top: 2120px;
         left: 100px;
         right: 100px;
         bottom: 0px;
@@ -674,13 +689,13 @@ svg.pos5 {
         position: absolute;
         top: 1750px;
         bottom: 100px;
-        left: 400px;
+        left: 350px;
         right: 600px;
     }
 
     .info{
         position: absolute;
-        top: 2180px;
+        top: 2280px;
         bottom: 100px;
         right: 600px;
         left: 800px;
@@ -699,7 +714,7 @@ svg.pos5 {
     }
     .position1{
         position: absolute;
-        top: 1518px;
+        top: 1590px;
         bottom: 100px;
         left: 0px;
         right: 1300px;
