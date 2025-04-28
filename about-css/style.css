@@ -214,10 +214,10 @@ p{
 }
 /*  */
 .btn {
-    margin-top: 20px;
-    margin-left: 147px;
     position: absolute;
-    bottom: -28px;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .plus {
     transform-origin: center;

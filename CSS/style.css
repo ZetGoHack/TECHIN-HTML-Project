@@ -200,7 +200,6 @@ line-height: 28px;
 .section2-avatar {
     width: 62px;
     height: 62px;
-    margin-top: 32px;
     border-radius: 62px;
     border: 2px solid #C4FFFE;
 }
@@ -248,6 +247,9 @@ line-height: 28px;
 }
 /* mobile */
 @media (max-width: 767px){
+    .section2-avatar {
+        margin-top: 50px;
+    }
     .position1{
         display: none;
     } 

@@ -34,7 +34,7 @@ buttons.forEach((element, counter) => {
             if (elmnt.tagName == "IMG") {
                 elmnt.classList.toggle("invisible");
             }
-            if (elmnt.tagName == "DIV") {
+            if (elmnt.tagName == "P") {
                 if (elmnt.classList.contains("white")) {
                     if (elmnt.classList.contains("state")) {
                         elmnt.textContent = professions[counter];
