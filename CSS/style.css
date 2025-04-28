@@ -248,6 +248,13 @@ line-height: 28px;
 }
 /* mobile */
 @media (max-width: 767px){
+    .burger{
+        position: absolute;
+        top: 85px;
+        bottom: 100px;
+        right: 0px;
+        left: 700px;
+    }
     .position1{
         display: none;
     } 
@@ -304,6 +311,9 @@ line-height: 28px;
 
 /* tablet */
 @media (min-width: 768px) and (max-width: 1440px) {
+    .burger{
+        display: none;
+    }
     .section2-div {
         width: 80%;
     }
@@ -370,6 +380,9 @@ line-height: 28px;
 
 /* desktop */
 @media (min-width: 1440px) {
+    .burger{
+        display: none;
+    }
     .section2 {
         height: 745px;
     }
@@ -448,6 +461,9 @@ line-height: 28px;
 
 /* tv */
 @media (min-width: 1920px) {
+    .burger{
+        display: none;
+    }
     .section2 {
         height: 38.80vw;
     }
