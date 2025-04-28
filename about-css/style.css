@@ -116,6 +116,12 @@ body {
     height: 200px;
     flex-shrink: 0;
 }
+.group2{
+    width: 100%;
+    justify-content: end;
+    margin-top: -40px;
+    display: flex;
+}
 .flexpos {
     position: relative;
 }
