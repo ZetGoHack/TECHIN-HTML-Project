@@ -8,7 +8,7 @@ let blocks = [
     block1,block2,block3,
     block4,block5,block6
 ];
-let texts = ['“The first spark is never the final form — iterate until it breathes.”','“Structure creates space for chaos to turn into brilliance.”','“Tech is only as powerful as the problem it’s solving.”','“Relationships move faster than strategy — build trust early.”','“Unique perspectives shape unique products, which is what you need to survive these days.”','“Empowered teams create truly amazing products. Set the north star and let them follow it.”'];
+let texts = ['“The first spark is never the final form — iterate until it breathes. Lorem ipsum dolor omen.”','“Structure creates space for chaos to turn into brilliance. Lorem ipsum dolor omen.”','“Tech is only as powerful as the problem it’s solving. Lorem ipsum dolor omen.”','“Relationships move faster than strategy — build trust early. Lorem ipsum dolor omen.”','“Unique perspectives shape unique products, which is what you need to survive these days.”','“Empowered teams create truly amazing products. Set the north star and let them follow it.”'];
 let professions = ['Founder & CEO','Co-founder & COO','Co-founder & CTO','Business Development Lead','Lead Marketing','Head of Talent']
 
 
@@ -45,6 +45,9 @@ buttons.forEach((element, counter) => {
                     element.classList.toggle(`pos${counter}`);
                     elmnt.classList.toggle("state");
                 }
+            }
+            if (elmnt.tagName == "svg") {
+                elmnt.classList.toggle("invisible");
             }
         }
     });
