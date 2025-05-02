@@ -409,6 +409,9 @@ svg.pos5 {
 .bt-icons {
     margin-top: 10%;
 }
+a:hover > path{
+    fill: #F67E7E;
+}
 
 
 .txt-style{
@@ -872,3 +875,20 @@ svg.pos5 {
     }
 }
 /* tv */
+
+.homeF:hover{
+    color: #F67E7E;
+}
+
+.aboutF:hover{
+    color: #F67E7E;
+}
+
+.color:hover{
+    color: #F67E7E;
+}
+
+#buttonContactss:hover{
+    background-color: #004047;
+    color: white;
+}

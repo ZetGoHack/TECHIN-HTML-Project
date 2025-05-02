@@ -3,62 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/IMG/figma.ico">
     <title>MyTeam - Kontaktai</title>
     <link rel="stylesheet" href="contacts-css/style.css">
-</head>
-<body>
-    <header>
-        <div class="flex">
-            <img src="IMG/myteam 2.png" class="myteam">
-                <a href="index.html" id="button-Home">
-                    home
-                </a>
-                    <a href="about.html" id="button-About">
-                        about
-                    </a>
-                <div class="flex2">
-                <a href="contacts.html" id="button-Contacts">
-                contact us
-                </a>
-                </div>
-            </div>
-    </header>
-    <section class="contact">
-        <div class="info">
-            <h1>Contact</h1>
-            <p class="subtitle">Ask us about</p>
-            <ul>
-                <li><span class="icon"></span> The quality of our talent network</li>
-                <li><span class="icon"></span> Usage & implementation of our software</li>
-                <li><span class="icon"></span> How we help drive innovation</li>
-            </ul>
-        </div>
-        <form class="contact-form">
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email Address">
-            <input type="text" placeholder="Company Name">
-            <input type="text" placeholder="Title">
-            <textarea placeholder="Message"></textarea>
-            <button type="submit">submit</button>
-        </form>
-    </section>
-    <footer>
-        <div class="footer-container">
-            <div class="logo">myteam</div>
-            <div class="address">
-                <p>987 Hillcrest Lane</p>
-                <p>Irvine, CA</p>
-                <p>California 92714</p>
-                <p>Call Us: 949-833-7432</p>
-            </div>
-            <div class="socials">
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-            </div>
-        </div>
-        <p class="copyright">Copyright © 2020. All Rights Reserved</p>
-    </footer>
-</body>
-</html>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="stylesheet" href="contacts-css/style.css" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="main-nav">
+        <a href="#">
+          <img src="IMG/myteam.png" alt="myteam logo" class="logo-img" />
+        </a>
+
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+        </ul>
+      </nav>
+
+      <a href="contact.html" class="btn-outline">contact us</a>
+    </header>
+
+    <main class="contact-page">
+      <section class="contact-wrapper">
+        <img src="IMG/leftDecor.png" class="decor decor--left" alt="" />
+  
+        <div class="contact-info">
+          <h1>Contact</h1>
+          <p class="subtitle">Ask us about</p>
+
+          <ul>
+            <li>
+              <img src="IMG/person.png" alt="" />
+              <span>The quality of our talent network</span>
+            </li>
+            <li>
+              <img src="IMG/settings.png" alt="" />
+              <span>Usage &amp; implementation of our software</span>
+            </li>
+            <li>
+              <img src="IMG/economy.png" alt="" />
+              <span>How we help drive innovation</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email Address" required />
+          <input type="text" placeholder="Company Name" />
+          <input type="text" placeholder="Title" />
+          <textarea placeholder="Message" required></textarea>
+          <button type="submit" class="btn-solid">submit</button>
+        </form>
+        <img src="IMG/rightDecor.png"       class="decor decor--right" alt="" />
+
+      </section>
+    </main>
+
+    <div class="footer">
+      <div class="ready-to-start">
+          <div class="container">
+              <img src="footerLogo.png" alt="MyTeam Logo" class="logo-img">
+              <h2>Ready to get started?</h2>
+          </div>
+          <a href="contact.html" class="contact-btn">contact us</a>
+      </div>
+  </div>
+  
+    <footer class="site-footer">
+      <div class="footer-left">
+        <img src="myteam.png" class="logo-img" alt="myteam logo" />
+
+        <ul class="footer-nav">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+        </ul>
+      </div>
+
+      <address class="address">
+        987&nbsp;Hillcrest&nbsp;Lane<br />
+        Irvine,&nbsp;CA&nbsp;92714<br />
+        Call&nbsp;Us:&nbsp;949-833-7432
+      </address>
+      <div class="footer-right">
+        <div class="socials">
+          <img src="facebook.png" alt="" />
+          <img src="pinterest.png" alt="" />
+          <img src="twitter.png" alt="" />
+        </div>
+  
+        <p class="copyright">
+          Copyright 2020. &nbsp;All&nbsp;Rights&nbsp;Reserved
+        </p>
+
+      </div>
+    </footer>
+  </body>
+</html>
