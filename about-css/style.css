@@ -783,3 +783,20 @@ svg.pos5 {
     }
 }
 /* tv */
+
+.homeF:hover{
+    color: #F67E7E;
+}
+
+.aboutF:hover{
+    color: #F67E7E;
+}
+
+.color:hover{
+    color: #F67E7E;
+}
+
+#buttonContactss:hover{
+    background-color: #004047;
+    color: white;
+}
