@@ -45,6 +45,9 @@ buttons.forEach((element, counter) => {
                     element.classList.toggle(`pos${counter}`);
                     elmnt.classList.toggle("state");
                 }
+                else {
+                    elmnt.classList.toggle("heig");
+                }
             }
             if (elmnt.tagName == "svg") {
                 elmnt.classList.toggle("invisible");
