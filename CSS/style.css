@@ -641,15 +641,6 @@ body {
     cursor: pointer;
   }
   
-  footer {
-    background-color: #002529;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 200px;
-    font-size: 14px;
-  }
   
   .footer-left, .footer-middle, .footer-right {
     margin: 10px;
