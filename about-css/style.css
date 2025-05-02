@@ -57,7 +57,7 @@ body {
     font-weight: 600;
     line-height: 28px; 
     text-decoration: none;
-   
+    transition: 0.2s linear;
 }
 #buttonAbout{
     color: #FFF;
@@ -67,7 +67,7 @@ body {
     font-weight: 600;
     line-height: 28px; 
     text-decoration: none;
-  
+    transition: 0.2s linear;
 }
 #buttonContacts{
     text-decoration: none;
@@ -87,11 +87,17 @@ body {
     padding-right: 33px;
     width: 88px;
     height: 28px;
-    transition: 0.3s linear;
+    transition: 0.2s linear;
 }
 #buttonContacts:hover{
     color: black;
     background-color: white;
+}
+#buttonHome:hover{
+    color: #F67E7E;
+}
+#buttonAbout:hover{
+    color: #F67E7E;
 }
 .about{
     width: 350px;
