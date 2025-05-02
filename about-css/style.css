@@ -683,7 +683,7 @@ a:hover > path{
     }
     .position2{
         position: absolute;
-        top: 2085px;
+        top: 2086px;
         bottom: 100px;
         left: 0px;
         right: 1300px;
@@ -787,19 +787,19 @@ a:hover > path{
 }
 /* tv */
 
-.homeF:hover{
+.home1:hover{
     color: #F67E7E;
 }
 
-.aboutF:hover{
+.about1:hover{
     color: #F67E7E;
 }
 
-.color:hover{
+.about_png:hover{
     color: #F67E7E;
 }
 
-#buttonContactss:hover{
+.contact-btn:hover{
     background-color: #004047;
     color: white;
 }
