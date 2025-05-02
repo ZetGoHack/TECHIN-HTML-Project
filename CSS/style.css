@@ -747,3 +747,15 @@ body {
   }
 
   
+  #buttonHome:hover{
+    color: #F67E7E;
+  }
+
+  #buttonAbout:hover{
+    color: #F67E7E;
+  }
+
+  #buttonContacts:hover{
+    background-color: white;
+    color: black;
+  }
