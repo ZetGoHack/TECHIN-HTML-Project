@@ -243,6 +243,6 @@ a { color: inherit; text-decoration: none; }
 @media (min-width: 1025px) {
   .site-header {
     margin: 0 120px;
-    padding: 32px 24px;
+    padding: 32px 34px;
   }
 }
