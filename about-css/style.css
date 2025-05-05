@@ -351,12 +351,6 @@ p{
     left: 50%;
     transform: translateX(-50%);
 }
-.state {
-    font-style: normal;
-    margin-top: 2.4%;
-    width: 70%;
-    font-size: 15.4px;
-}
 .plus {
     transform-origin: center;
 }
@@ -424,6 +418,12 @@ svg.pos5 {
     line-height: 25px; 
     width: 80%;
     margin: auto;
+}
+.state {
+    font-style: normal;
+    margin-top: 2.4%;
+    width: 70%;
+    font-size: 15.4px;
 }
 .bt-icons {
     margin-top: 6%;
