@@ -327,9 +327,13 @@ bottom: -51px;
 }
 .ex{
  position: relative;
+ top: -22px;
+ left: 3px;
+ width: 478px;
 }
 .our{
     position: relative;
+    width: 478px;
 }
 .group11{
     margin-top: 125px;
@@ -1182,70 +1186,64 @@ footer p {
     padding-top: 60px;
   }
   
-  .sidebar a {
+.sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: white;
     display: block;
     transition: 0.3s;
-  }
+}
   
-  .sidebar a:hover {
+.sidebar a:hover {
     color: #f1f1f1;
-  }
+}
   
-  .sidebar .closebtn {
+.sidebar .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
   
-  .openbtn {
+.openbtn {
     font-size: 20px;
     cursor: pointer;
     background-color: #014E56;
     color: white;
     padding: 10px 15px;
     border: none;
-  }
+}
   
-  #main {
+#main {
     transition: margin-left .5s;
-    padding: 16px;
-  }
+    padding: 4px;
+}
 
-  .link{
-    text-decoration: none;
-    color: white;
-    font-family: "Livvic", sans-serif;
+.link{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Livvic;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
-    border-radius: 24px;
-    border: 2px solid white;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    padding-top: 9px;
-    padding-bottom:11px ;
-    padding-left: 32px;
-    padding-right: 33px;
-    width: 88px;
-    height: 28px;
-  }
+    width: 92px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 24px;
+border: 2px solid #FFF;
+}
 
-  .position{
+.position{
     position: absolute;
     left: 135px;
     right: 0px;
     top: 400px;
     bottom: 100px;
-  }
+}
   
 
 /* ===Media Queries for Footer === */
