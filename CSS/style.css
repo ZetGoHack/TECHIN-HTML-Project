@@ -290,7 +290,10 @@ position: relative;
 }
 .line1{
     margin-top: 100px;
-    left: 21px;
+
+}
+.line2{
+    width: 80%;
 }
 .for1 .textarea {
     display: flex;
@@ -315,11 +318,11 @@ bottom: -51px;
     margin-top: 125px;
 }
 .text12{
-    margin-top: 255px;
+    margin-top: 251px;
    
 }
 .text13{
-    margin-top: 370px;
+    margin-top: 377px;
    
 }
 .textarea .image{
@@ -334,6 +337,8 @@ bottom: -51px;
 .our{
     position: relative;
     width: 478px;
+    top: -7px;
+    left: 3px;
 }
 .group11{
     margin-top: 125px;
