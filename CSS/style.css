@@ -290,7 +290,11 @@ position: relative;
 }
 .line1{
     margin-top: 100px;
-    
+    left: 21px;
+}
+.for1 .textarea {
+    display: flex;
+    width: 90%;
 }
 .build{
     color: #FFF;
@@ -301,6 +305,8 @@ font-weight: 700;
 line-height: 32px;
 position: absolute;
 width: 60%;
+left: 98px;
+bottom: -51px;
 }
 .textarea{
     position: absolute;
@@ -316,18 +322,36 @@ width: 60%;
     margin-top: 370px;
    
 }
+.textarea .image{
+    margin: 0 40px 20px 0
+}
+.ex{
+ position: relative;
+ top: -22px;
+ left: 3px;
+ width: 478px;
+}
+.our{
+    position: relative;
+    width: 478px;
+}
 .group11{
     margin-top: 125px;
-   
-    
+    position: relative;
+        top: -23px;
+        left: 20px;  
 }
 .group12{
     margin-top: 255px;
-    
+    position: relative;
+        top: -27px;
+        left: 20px;
 }
 .group13{
     margin-top: 370px;
-    
+    position: relative;
+    top: -16px;
+    left: 20px;
 }
 }
 /*tablet*/
