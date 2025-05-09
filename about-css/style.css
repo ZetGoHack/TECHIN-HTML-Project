@@ -502,7 +502,7 @@ a:hover > path{
 }
   /*section*/
   /*media*/
-  @media (min-width: 768px) and (max-width: 1439px) {
+  @media (max-width: 768px) and (min-width: 375px) {
     .flex3 {
         bottom: 31.5%;
     }  
