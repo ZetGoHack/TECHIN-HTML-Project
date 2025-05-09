@@ -13,7 +13,7 @@ let professions = ['Founder & CEO','Co-founder & COO','Co-founder & CTO','Busine
 
 let toHalfSvg = document.getElementById("toHalf");
 let mediaR = window.matchMedia("(max-width: 375px)");
-mediaR.addEventListener("change", (e) => {
+function checkMedia (e) {
     if (e.matches) {
         toHalfSvg.setAttribute("viewBox", "0 100 100 200");
     }
@@ -21,7 +21,8 @@ mediaR.addEventListener("change", (e) => {
         toHalfSvg.setAttribute("viewBox", "0 0 100 200");
     }
 }
-)
+checkMedia(mediaR);
+mediaR.addEventListener("change", checkMedia);
 
 
 let buttons = [];
