@@ -290,11 +290,17 @@ position: relative;
 }
 .line1{
     margin-top: 100px;
-    left: 21px;
+
+}
+.line2{
+    width: 74.4%;
 }
 .for1 .textarea {
     display: flex;
-    width: 90%;
+    width: 87%;
+}
+.sectionflex2{
+    width: 74.5%;
 }
 .build{
     color: #FFF;
@@ -305,8 +311,8 @@ font-weight: 700;
 line-height: 32px;
 position: absolute;
 width: 60%;
-left: 98px;
 bottom: -51px;
+height: 65px;
 }
 .textarea{
     position: absolute;
@@ -315,56 +321,58 @@ bottom: -51px;
     margin-top: 125px;
 }
 .text12{
-    margin-top: 255px;
+    margin-top: 251px;
    
 }
 .text13{
-    margin-top: 370px;
+    margin-top: 377px;
    
 }
 .textarea .image{
-    margin: 0 40px 20px 0
+    margin: 0 20px 20px 0
 }
 .ex{
  position: relative;
  top: -22px;
- left: 3px;
  width: 478px;
+ left: 2px;
 }
 .our{
     position: relative;
     width: 478px;
+    top: -7px;
+    left: 2px;
 }
 .group11{
     margin-top: 125px;
     position: relative;
-        top: -23px;
-        left: 20px;  
+    top: -24px;
+    left: -1px;
 }
 .group12{
     margin-top: 255px;
     position: relative;
-        top: -27px;
-        left: 20px;
+    top: -28px;
+    left: -1px;
 }
 .group13{
     margin-top: 370px;
     position: relative;
-    top: -16px;
-    left: 20px;
+    top: -17px;
+    left: -1px;
 }
 }
 /*tablet*/
 /*phone*/
 @media(max-width: 767px){
     .line2{
-        width: 90%;
+        width: 87%;
     }
     .line1{
       margin-top: 64px;
     }
     .sectionflex2{
-        width: 90%;
+        width: 87.5%;
     }
     .section1{
         height: 1073px;
@@ -378,11 +386,12 @@ font-weight: 700;
 line-height: 32px; 
 position: absolute;
 width: 60%;
+bottom: -112px;
     }
     .textarea{
         position: absolute;
         display: flex;
-            width: 90%;
+            width: 90% !important;
             flex-wrap: wrap;
             flex-direction: row;
     }
