@@ -192,8 +192,18 @@ position: relative;
     position: absolute;
     top: 724px
 }
+.our{
+    left: unset;
+        top: unset;
+}
+.ex{
+    left: unset;
+        top: unset;
+}
 .line1{
     margin-top: 100px;
+    left: unset;
+    top: unset;
 }
 .build{
     color: #FFF;
@@ -204,28 +214,42 @@ font-weight: 700;
 line-height: 32px;
 position: absolute;
 width: 60%;
+left: unset;
+top: unset;
 }
 .textarea{
     position: absolute;
 }
 .text11{
     margin-top: 125px;
+    left: unset;
+        top: unset;
 }
 .text12{
     margin-top: 255px;
+    left: unset;
+        top: unset;
 }
 .text13{
     margin-top: 370px;
+    left: unset;
+        top: unset;
 }
 .group11{
     margin-top: 125px;
+    left: unset;
+        top: unset;
     
 }
 .group12{
     margin-top: 255px;
+    left: unset;
+        top: unset;
 }
 .group13{
     margin-top: 370px;
+    left: unset;
+        top: unset;
 }
 }
 /*tablet*/
