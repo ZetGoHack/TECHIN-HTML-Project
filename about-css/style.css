@@ -486,7 +486,7 @@ svg.pos5 {
     width: 0;
     height: 0;
     border: 0;
-    margin-top: unset;
+    margin-top: unset !important;
 }
 a:hover > path{
     fill: #F67E7E;
