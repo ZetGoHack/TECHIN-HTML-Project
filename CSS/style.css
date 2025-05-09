@@ -312,6 +312,7 @@ line-height: 32px;
 position: absolute;
 width: 60%;
 bottom: -51px;
+height: 65px;
 }
 .textarea{
     position: absolute;
@@ -345,30 +346,33 @@ bottom: -51px;
 .group11{
     margin-top: 125px;
     position: relative;
-        top: -23px;
+    top: -24px;
+    left: -1px;
 }
 .group12{
     margin-top: 255px;
     position: relative;
-        top: -27px;
+    top: -28px;
+    left: -1px;
 }
 .group13{
     margin-top: 370px;
     position: relative;
-    top: -16px;
+    top: -17px;
+    left: -1px;
 }
 }
 /*tablet*/
 /*phone*/
 @media(max-width: 767px){
     .line2{
-        width: 90%;
+        width: 87%;
     }
     .line1{
       margin-top: 64px;
     }
     .sectionflex2{
-        width: 90%;
+        width: 87.5%;
     }
     .section1{
         height: 1073px;
@@ -382,11 +386,12 @@ font-weight: 700;
 line-height: 32px; 
 position: absolute;
 width: 60%;
+bottom: -112px;
     }
     .textarea{
         position: absolute;
         display: flex;
-            width: 90%;
+            width: 90% !important;
             flex-wrap: wrap;
             flex-direction: row;
     }
