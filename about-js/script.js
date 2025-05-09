@@ -11,7 +11,17 @@ let blocks = [
 let texts = ['“The first spark is never the final form — iterate until it breathes. Lorem ipsum dolor omen.”','“Structure creates space for chaos to turn into brilliance. Lorem ipsum dolor omen.”','“Tech is only as powerful as the problem it’s solving. Lorem ipsum dolor omen.”','“Relationships move faster than strategy — build trust early. Lorem ipsum dolor omen.”','“Unique perspectives shape unique products, which is what you need to survive these days.”','“Empowered teams create truly amazing products. Set the north star and let them follow it.”'];
 let professions = ['Founder & CEO','Co-founder & COO','Co-founder & CTO','Business Development Lead','Lead Marketing','Head of Talent']
 
-
+let toHalfSvg = document.getElementById("toHalf");
+let mediaR = window.matchMedia("(max-width: 375px)");
+mediaR.addEventListener("change", (e) => {
+    if (e.matches) {
+        toHalfSvg.setAttribute("viewBox", "0 100 100 200");
+    }
+    else {
+        toHalfSvg.setAttribute("viewBox", "0 0 100 200");
+    }
+}
+)
 
 
 let buttons = [];
