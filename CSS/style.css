@@ -75,7 +75,102 @@ margin-top: 70px;
     list-style-type: none;
     display: inline-flex;
 }
+.section1 {
+    width: 100%;
+    background: #012F34;
+    height: 684px;
+}
+.line1{
+    background: #F67E7E;
+    margin-top: 140px;
+    position: relative;
+    
+}
+.line2{
+    margin: auto;
+  width: 80%;
+    
+}
+.build{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    width: 40%;
+   
+}
+.group2flex{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.group2{
+    width: 100px;
+    height: 244px;
+   
+}
+
+.ex{
+    color: #F67E7E;
+font-family: Livvic;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+
+}
+.sectionflex2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 54px;
+    justify-content: space-between;
+}
+.our{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    width: 100%;
+   
+}
+.group11{
+    width: 72px;
+    height: 72px;
+    margin-bottom: 26px;
+   
+}
+.group12{
+    width: 72px;
+    height: 72px;
+    margin-bottom: 26px;
+    
+}
+
+.group13{
+    width: 72px;
+    height: 72px;
+   
+}
+.for1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.for1 .textarea {
+    display: flex;
+    width: 100%;
+}
+.textarea .image {
+    margin: 0 20px 20px 0;
+}
 /* section1 */
+@media(min-width:1440px){
 .section1 {
     width: 100%;
     background: #012F34;
@@ -182,6 +277,7 @@ position: relative;
 .textarea .image {
     margin: 0 20px 20px 0;
 }
+}
 /*tablet*/
 @media(min-width: 768px) and (max-width: 1439px){
 .section1{
@@ -194,6 +290,11 @@ position: relative;
 }
 .line1{
     margin-top: 100px;
+    left: 21px;
+}
+.for1 .textarea {
+    display: flex;
+    width: 90%;
 }
 .build{
     color: #FFF;
@@ -204,6 +305,8 @@ font-weight: 700;
 line-height: 32px;
 position: absolute;
 width: 60%;
+left: 98px;
+bottom: -51px;
 }
 .textarea{
     position: absolute;
@@ -213,19 +316,38 @@ width: 60%;
 }
 .text12{
     margin-top: 255px;
+   
 }
 .text13{
     margin-top: 370px;
+   
+}
+.textarea .image{
+    margin: 0 40px 20px 0
+}
+.ex{
+ position: relative;
+}
+.our{
+    position: relative;
 }
 .group11{
     margin-top: 125px;
-    
+    position: relative;
+        top: -23px;
+        left: 20px;  
 }
 .group12{
     margin-top: 255px;
+    position: relative;
+        top: -27px;
+        left: 20px;
 }
 .group13{
     margin-top: 370px;
+    position: relative;
+    top: -16px;
+    left: 20px;
 }
 }
 /*tablet*/
@@ -471,6 +593,8 @@ width: 60%;
     .display{
         display: none;
     }
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
 }
 /* mobile */
 
@@ -1045,6 +1169,84 @@ footer p {
   font-size: .9rem;
   opacity: .8;
 }
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #014E56;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #014E56;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  .link{
+    text-decoration: none;
+    color: white;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 24px;
+    border: 2px solid white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding-top: 9px;
+    padding-bottom:11px ;
+    padding-left: 32px;
+    padding-right: 33px;
+    width: 88px;
+    height: 28px;
+  }
+
+  .position{
+    position: absolute;
+    left: 135px;
+    right: 0px;
+    top: 400px;
+    bottom: 100px;
+  }
+  
 
 /* ===Media Queries for Footer === */
  
