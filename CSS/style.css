@@ -1175,16 +1175,16 @@ footer p {
 }
 .sidebar {
     height: 100%;
-    width: 0;
+    width: 50%;
     position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #014E56;
+    background-color: #2C6269;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
+}
   
 .sidebar a {
     padding: 8px 8px 8px 32px;
@@ -1222,19 +1222,25 @@ footer p {
 }
 
 .link{
+    text-decoration: none;
     color: #FFF;
-
-    text-align: center;
-    font-family: Livvic;
+    font-family: "Livvic", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
-    width: 92px;
-height: 48px;
-flex-shrink: 0;
-border-radius: 24px;
-border: 2px solid #FFF;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    display: inline-block;
+    flex-shrink: 0;
+    margin-top: 23px;
+    padding-top: 9px;
+    padding-bottom:11px ;
+    padding-left: 32px;
+    padding-right: 33px;
+    width: 88px;
+    height: 28px;
+    margin-left: 5px;
 }
 
 .position{
