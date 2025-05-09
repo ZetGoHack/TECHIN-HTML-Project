@@ -334,11 +334,13 @@ bottom: -51px;
  position: relative;
  top: -22px;
  width: 478px;
+ left: 2px;
 }
 .our{
     position: relative;
     width: 478px;
     top: -7px;
+    left: 2px;
 }
 .group11{
     margin-top: 125px;
