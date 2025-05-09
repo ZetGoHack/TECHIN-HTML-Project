@@ -538,11 +538,22 @@ a:hover > path{
     }
   }
   @media (max-width: 374px) {
-    .flexpos {
-
+    .flex3 {
+        bottom: 37.5%;
+        transform: translateX(-75%);
     }
-    .flexpos > svg {
-        
+    .flex3 > p {
+        font-size: 33px;
+        width: 152%;
+        font-weight: 600;
+    }
+    .flex4 {
+        width: 87.5%;
+        margin-top: -10%;
+        height: 66.7em;
+    }
+    .romb {
+        height: 23.8%;
     }
   }
   /*media*/
