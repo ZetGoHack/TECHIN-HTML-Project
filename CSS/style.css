@@ -79,11 +79,13 @@ margin-top: 70px;
 .section1 {
     width: 100%;
     background: #012F34;
+    height: 684px;
 }
 .line1{
     background: #F67E7E;
     margin-top: 140px;
     position: relative;
+    left: 20px;
 }
 .line2{
     margin: auto;
@@ -98,6 +100,9 @@ margin-top: 70px;
     font-weight: 700;
     line-height: 48px;
     width: 40%;
+    position: relative;
+    left: 21px;
+    top: -4px
 }
 .group2flex{
     width: 100%;
@@ -107,7 +112,7 @@ margin-top: 70px;
 .group2{
     width: 100px;
     height: 244px;
-   margin-top: -135px;
+    margin-top: -114px;
 }
 
 .ex{
@@ -117,7 +122,9 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 28px;
-
+position: relative;
+    top: -3px;
+    left: 18px;
 }
 .sectionflex2 {
     width: 80%;
@@ -134,22 +141,33 @@ line-height: 28px;
     font-weight: 600;
     line-height: 25px;
     width: 100%;
-    margin-top: 16px;
+    margin-top: 12px;
+    position: relative;
+    left: 18px
 }
 .group11{
     width: 72px;
     height: 72px;
-    margin-bottom: 34px;
+    margin-bottom: 26px;
+    position: relative;
+    left: 15px;
+    top: -4px;
 }
 .group12{
     width: 72px;
     height: 72px;
-    margin-bottom: 34px;
+    margin-bottom: 26px;
+    position: relative;
+    left: 15px;
+    top: -4px;
 }
 
 .group13{
     width: 72px;
     height: 72px;
+    position: relative;
+    left: 15px;
+    top: -4px;
 }
 .for1{
     width: 50%;
@@ -159,7 +177,7 @@ line-height: 28px;
 }
 .for1 .textarea {
     display: flex;
-    width: 90%;
+    width: 100%;
 }
 .textarea .image {
     margin: 0 20px 20px 0;
