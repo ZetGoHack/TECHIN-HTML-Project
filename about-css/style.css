@@ -75,7 +75,6 @@ body {
     border-radius: 24px;
     border: 2px solid #FFF;
     display: inline-block;
-    flex-shrink: 0;
     padding-top: 9px;
     padding-bottom:11px ;
     padding-left: 32px;
@@ -405,6 +404,9 @@ svg.pos5 {
     flex-wrap: wrap;
     height: 36.375em;
 }
+.flex4 > * {
+    z-index: 2;
+}
 .romb {
     position: relative;
     height: 253px;
@@ -499,6 +501,48 @@ a:hover > path{
     font-size: 15.4px;
 }
   /*section*/
+  /*media*/
+  @media (min-width: 768px) {
+    .flex3 {
+        bottom: 31.5%;
+    }  
+    .flex3 > p{
+        font-size: 32px;
+    }
+    .flex4 {
+        width: 74.5%;
+        margin-top: -3.1%;
+        height: 56.9em;
+    }
+    .romb {
+        flex-basis: 49%;
+    }
+    .oval {
+        margin-top: 10.6%;
+    }
+    .blue {
+        margin-top: 5.5%;
+    }
+    .flex0 {
+        height: 8em;
+    }
+    .flex0img {
+        height: unset;
+    }
+    .heig {
+        margin-top: 13%;
+    }
+    .state {
+        width: 81%;
+    }
+    .bt-icons {
+        margin-top: 8%;
+    }
+  }
+  @media (max-width: 767px) {
+    
+  }
+  /*media*/
 
   .cta button {
     padding: 10px 20px;
@@ -635,7 +679,6 @@ a:hover > path{
         text-decoration: none;
         border: 2px solid #012F34;
         text-decoration: none;
-        flex-shrink: 0;
         margin-top: 73px;
         padding-top: 9px;
         padding-bottom:11px ;
@@ -742,7 +785,7 @@ a:hover > path{
         text-decoration: none;
         border: 2px solid #012F34;
         text-decoration: none;
-        flex-shrink: 0;
+        
         margin-top: 73px;
         padding-top: 9px;
         padding-bottom:11px ;
@@ -883,7 +926,7 @@ a:hover > path{
         line-height: 28px;
         border-radius: 24px;
         border: 2px solid #012F34;
-        flex-shrink: 0;
+        
         margin-top: 73px;
         padding-top: 9px;
         padding-bottom:11px ;
