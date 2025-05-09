@@ -8,11 +8,6 @@ body {
     background: #014E56;
 }
 
-.section1{
-    width:  100%;
-    height: 42.6%;
-    background: #004047;
-}
 .section2{
     width:  100%;
     height: 437px;
@@ -138,7 +133,7 @@ body {
     display: none;
 }
 /*media tablet*/
-@media(min-width: 768px) and (max-width: 1440px){
+@media(min-width: 768px) and (max-width: 1439px){
     .line2{
         display: none;
     }
@@ -245,21 +240,7 @@ body {
     }
 }
 /*media phone*/
-.flexpos {
-    position: relative;
-    z-index: 1;
-    background: #004047;
-}
-.flex0{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 100%;
-    height: 10.5em;
-}
-.flex0img {
-    height: 59.5%;
-}
+
 .flex1{
     display: flex;
     margin-top: -40px;
@@ -298,135 +279,6 @@ p{
     font-weight: 700;
     line-height: 48px;
 }
-.flex3{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.flex3 > * {
-    margin: 0;
-}
-.flex4{
-    display: flex;
-    width: 77%;
-    margin: auto;
-    margin-top: 6.4%;
-    justify-content: space-between;
-    align-content: space-between;
-    flex-wrap: wrap;
-    height: 36.375em;
-}
-.romb {
-    position: relative;
-    height: 253px;
-    flex-basis: 31.53%;
-    background: #012F34;
-    transition: 0.1s linear;
-    text-align: center;
-}
-.romb * {
-    transition: 0.1s linear;
-    
-}
-.romb button {
-    background: none;
-    border: unset;
-    display: block;
-}
-
-.oval{
-    display: block;
-    width: 96px;
-    height: 96px;
-    border-radius: 96px;
-    border: 2px solid #C4FFFE;
-    margin: auto;
-    margin-top: 9.1601%;
-}
-/*  */
-.btn {
-    position: absolute;
-    bottom: -10%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.plus {
-    transform-origin: center;
-}
-.plus.tgl-plus {
-    rotate: 45deg;
-}
-.circle {
-    fill: #F67E7E;
-}
-.circle.tgl-circle {
-    fill: #79C8C7;
-}
-.btn:hover .circle {
-    fill: #79C8C7;
-}
-.btn:hover .circle.tgl-circle {
-    fill: #F67E7E; 
-}
-.invisible {
-    width: 0;
-    height: 0;
-    border: 0;
-    margin-top: unset;
-}
-svg.pos0 {
-    margin-top: 95px;
-}
-svg.pos1 {
-    margin-top: 95px;
-}
-svg.pos2 {
-    margin-top: 95px;
-}
-svg.pos3 {
-    margin-top: 95px;
-}
-svg.pos4 {
-    margin-top: 70px;
-}
-svg.pos5 {
-    margin-top: 70px;
-}
-/*  */
-.blue{
-    color: #79C8C7;
-    text-align: center;
-    font-family: Livvic;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 28px; 
-    margin: auto;
-    margin-top: 4.6%;
-}
-.heig {
-    margin-top: 10%;
-}
-.white{
-    color: #FFF;
-    text-align: center;
-    font-family: Livvic;
-    font-size: 15px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 25px; 
-    width: 80%;
-    margin: auto;
-}
-.bt-icons {
-    margin-top: 6.9%;
-}
-a:hover > path{
-    fill: #F67E7E;
-}
-
-
 .txt-style{
     color: #FFF;
     text-align: center;
@@ -494,7 +346,160 @@ a:hover > path{
     font-weight: 800;
     margin: 0;
   }
-  
+  /*section*/
+  svg.pos0 {
+    margin-top: 95px;
+}
+svg.pos1 {
+    margin-top: 95px;
+}
+svg.pos2 {
+    margin-top: 95px;
+}
+svg.pos3 {
+    margin-top: 95px;
+}
+svg.pos4 {
+    margin-top: 70px;
+}
+svg.pos5 {
+    margin-top: 70px;
+}
+
+.section1{
+    width:  100%;
+    height: 42.6%;
+    background: #004047;
+}
+.flexpos {
+    position: relative;
+    z-index: 1;
+    background: #004047;
+}
+.flex0{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 10.5em;
+}
+.flex0img {
+    height: 59.5%;
+}
+.flex3{
+    position: absolute;
+    bottom: 7.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.flex3 > * {
+    margin: 0;
+}
+.flex4{
+    display: flex;
+    width: 77%;
+    margin: auto;
+    margin-top: 3.37%;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 36.375em;
+}
+.romb {
+    position: relative;
+    height: 253px;
+    flex-basis: 31.53%;
+    background: #012F34;
+    transition: 0.1s linear;
+    text-align: center;
+}
+.romb * {
+    transition: 0.1s linear;
+    
+}
+.romb button {
+    background: none;
+    border: unset;
+    display: block;
+}
+.oval{
+    display: block;
+    width: 96px;
+    height: 96px;
+    border-radius: 96px;
+    border: 2px solid #C4FFFE;
+    margin: auto;
+    margin-top: 8.6%;
+}
+.blue{
+    color: #79C8C7;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    margin: auto;
+    margin-top: 4.3%;
+}
+.white{
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px; 
+    width: 80%;
+    margin: auto;
+}
+.btn {
+    position: absolute;
+    bottom: -11.4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.circle {
+    fill: #F67E7E;
+}
+.circle.tgl-circle {
+    fill: #79C8C7;
+}
+.btn:hover .circle {
+    fill: #79C8C7;
+}
+.btn:hover .circle.tgl-circle {
+    fill: #F67E7E; 
+}
+.plus {
+    transform-origin: center;
+}
+.plus.tgl-plus {
+    rotate: 45deg;
+}
+.bt-icons {
+    margin-top: 6%;
+}
+.invisible {
+    width: 0;
+    height: 0;
+    border: 0;
+    margin-top: unset;
+}
+a:hover > path{
+    fill: #F67E7E;
+}
+.heig {
+    margin-top: 10.4%;
+}
+.state {
+    font-style: normal;
+    margin-top: 2.4%;
+    width: 70%;
+    font-size: 15.4px;
+}
+  /*section*/
+
   .cta button {
     padding: 10px 20px;
     font-size: 16px;
@@ -663,7 +668,7 @@ a:hover > path{
 /* mobile */
 
 /* tablet */
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1439px) {
     .position10{
         display: none;
     }
@@ -771,12 +776,12 @@ a:hover > path{
         position: absolute;
         top: 2029px;
         bottom: 100px;
-        left: 0px;
+         left: 0px;
         right: 1300px;
     }
 }
-/* tablet */
-
+ /* tablet */
+ 
 /* desktop */
 @media (min-width: 1440px) {
     .position10{

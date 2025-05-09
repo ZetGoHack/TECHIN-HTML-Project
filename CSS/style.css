@@ -79,11 +79,13 @@ margin-top: 70px;
 .section1 {
     width: 100%;
     background: #012F34;
+    height: 684px;
 }
 .line1{
     background: #F67E7E;
     margin-top: 140px;
     position: relative;
+    left: 20px;
 }
 .line2{
     margin: auto;
@@ -98,6 +100,9 @@ margin-top: 70px;
     font-weight: 700;
     line-height: 48px;
     width: 40%;
+    position: relative;
+    left: 21px;
+    top: -4px
 }
 .group2flex{
     width: 100%;
@@ -107,7 +112,7 @@ margin-top: 70px;
 .group2{
     width: 100px;
     height: 244px;
-   margin-top: -135px;
+    margin-top: -114px;
 }
 
 .ex{
@@ -117,7 +122,9 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 28px;
-
+position: relative;
+    top: -3px;
+    left: 18px;
 }
 .sectionflex2 {
     width: 80%;
@@ -134,22 +141,33 @@ line-height: 28px;
     font-weight: 600;
     line-height: 25px;
     width: 100%;
-    margin-top: 16px;
+    margin-top: 12px;
+    position: relative;
+    left: 18px
 }
 .group11{
     width: 72px;
     height: 72px;
-    margin-bottom: 34px;
+    margin-bottom: 26px;
+    position: relative;
+    left: 15px;
+    top: -4px;
 }
 .group12{
     width: 72px;
     height: 72px;
-    margin-bottom: 34px;
+    margin-bottom: 26px;
+    position: relative;
+    left: 15px;
+    top: -4px;
 }
 
 .group13{
     width: 72px;
     height: 72px;
+    position: relative;
+    left: 15px;
+    top: -4px;
 }
 .for1{
     width: 50%;
@@ -164,6 +182,126 @@ line-height: 28px;
 .textarea .image {
     margin: 0 20px 20px 0;
 }
+/*tablet*/
+@media(min-width: 768px) and (max-width: 1439px){
+.section1{
+    height: 710px;
+}
+.group2{
+    margin-top: -24px;
+    position: absolute;
+    top: 724px
+}
+.line1{
+    margin-top: 100px;
+}
+.build{
+    color: #FFF;
+font-family: Livvic;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+position: absolute;
+width: 60%;
+}
+.textarea{
+    position: absolute;
+}
+.text11{
+    margin-top: 125px;
+}
+.text12{
+    margin-top: 255px;
+}
+.text13{
+    margin-top: 370px;
+}
+.group11{
+    margin-top: 125px;
+    
+}
+.group12{
+    margin-top: 255px;
+}
+.group13{
+    margin-top: 370px;
+}
+}
+/*tablet*/
+/*phone*/
+@media(max-width: 767px){
+    .line2{
+        width: 90%;
+    }
+    .line1{
+      margin-top: 64px;
+    }
+    .sectionflex2{
+        width: 90%;
+    }
+    .section1{
+        height: 1073px;
+    }
+    .build{
+        color: #FFF;
+font-family: Livvic;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+position: absolute;
+width: 60%;
+    }
+    .textarea{
+        position: absolute;
+        display: flex;
+            width: 90%;
+            flex-wrap: wrap;
+            flex-direction: row;
+    }
+    .group2{
+        margin-top: -24px;
+        position: absolute;
+        top: 724px
+    }
+    .ex{
+        text-align: center;
+    }
+    .our{
+        text-align: center;
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+        text-align: center;
+    }
+    .text11{
+        width: 100%;
+        margin-top: -40px;
+    }
+    .text12{
+        width: 100%;
+        margin-top: -40px;
+    }
+    .text13{
+        width: 100%;
+        
+    }
+    .group11{
+        margin-top: 195px;
+    }
+    .group12{
+        margin-top: 430px;
+    }
+    .group13{
+        margin-top: 660px;
+    }
+    .textarea .image{
+        margin: 0 0px 20px 0;
+    }
+}
+/*phone*/
 
 /* section2 */
 /* mobile */
@@ -987,3 +1125,75 @@ footer p {
     bottom: 100px;
   }
   
+
+/* ===Media Queries for Footer === */
+ 
+/* Tablet (768px–1204px)  */
+@media screen and (max-width: 1024px) {
+    .footer,
+    .site-footer {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      padding: 1.5rem;
+    }
+   
+    .footer-left,
+    .footer-right,
+    .address {
+      flex: 100%;
+      margin: 1rem 0;
+    }
+   
+    .footer-nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+   
+    .logo-img {
+      max-width: 140px;
+    }
+   
+    .contact-btn {
+      padding: 0.75rem 1.25rem;
+      font-size: 1rem;
+    }
+  }
+   
+  /* Mobile (375/302px) */
+  @media screen and (max-width: 600px) {
+    .footer,
+    .site-footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 1rem;
+    }
+   
+    .footer-nav {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+   
+    .socials img {
+      width: 24px;
+      margin: 0 6px;
+    }
+   
+    .logo-img {
+      width: 100px;
+      margin-bottom: 1rem;
+    }
+   
+    .contact-btn {
+      display: block;
+      margin-top: 1rem;
+      width: fit-content;
+    }
+   
+    .address {
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+  }
