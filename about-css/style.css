@@ -740,7 +740,7 @@ a:hover > path{
         height: 107.9em;
     }
     .romb {
-        height: 14.7%;
+        height: 15.85em;
         flex-basis: 100%;
     }
     .flex4 > .romb {
@@ -763,6 +763,17 @@ a:hover > path{
     }
     .oval {
         margin-top: 9.6%;
+    }
+    .blue {
+        margin-top: unset;
+    }
+    .flex0 {
+        height: 10.5em;
+    }
+  }
+  @media (max-width: 450px) and (min-width: 375px) {
+    .flex0 {
+        margin-top: 6em;
     }
   }
   /*media*/
