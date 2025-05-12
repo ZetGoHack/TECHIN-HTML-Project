@@ -686,7 +686,7 @@ a:hover > path{
 }
   /*section*/
   /*media*/
-  @media (max-width: 768px) and (min-width: 375px) {
+  @media (max-width: 768px) and (min-width: 450px) {
     .flex3 {
         bottom: 31.5%;
     }  
@@ -724,7 +724,7 @@ a:hover > path{
         margin-top: 8%;
     }
   }
-  @media (max-width: 375px) {
+  @media (max-width: 450px) {
     .flex3 {
         bottom: 37.5%;
         transform: translateX(-76%);
