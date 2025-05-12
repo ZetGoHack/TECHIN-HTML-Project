@@ -193,7 +193,8 @@ body {
    margin-top: 104px;
    height: 200px;
    width: 100px;
-
+   position: absolute;
+   top: 315px
     }
     .group2{
         height: 100px;
@@ -224,10 +225,6 @@ body {
         font-style: normal;
         font-weight: 600;
         line-height: 28px;
-    }
-    .group1{
-        position: absolute;
-        top: 315px
     }
     .burger{
         display: block;
@@ -540,8 +537,24 @@ a:hover > path{
         margin-top: 8%;
     }
   }
-  @media (max-width: 767px) {
-    
+  @media (max-width: 374px) {
+    .flex3 {
+        bottom: 37.5%;
+        transform: translateX(-75%);
+    }
+    .flex3 > p {
+        font-size: 33px;
+        width: 152%;
+        font-weight: 600;
+    }
+    .flex4 {
+        width: 87.5%;
+        margin-top: -10%;
+        height: 66.7em;
+    }
+    .romb {
+        height: 23.8%;
+    }
   }
   /*media*/
 
