@@ -540,7 +540,7 @@ a:hover > path{
   @media (max-width: 374px) {
     .flex3 {
         bottom: 37.5%;
-        transform: translateX(-75%);
+        transform: translateX(-76%);
     }
     .flex3 > p {
         font-size: 33px;
@@ -550,10 +550,29 @@ a:hover > path{
     .flex4 {
         width: 87.5%;
         margin-top: -10%;
-        height: 66.7em;
+        height: 107.9em;
     }
     .romb {
-        height: 23.8%;
+        height: 14.7%;
+        flex-basis: 100%;
+    }
+    .flex4 > .romb {
+        margin-top: 15.5%;
+    }
+    .flex4 > .romb:first-child {
+        margin-top: 0%;
+    }
+    .flex4 > .romb:nth-child(3) {
+        margin-top: 16%;
+    }
+    .flex4 > .romb:last-child {
+        margin-top: 16.5%;
+    }
+    #romb6 > .btn {
+        bottom: -10.4%;
+    }
+    #romb6 > .bt-icons {
+        margin-top: 6.7%;
     }
   }
   /*media*/
