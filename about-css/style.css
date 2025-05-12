@@ -1254,7 +1254,8 @@ h1, h2, h3, p, address, .footer-nav > li {
 }
 
 .ready-to-start .contact-btn:hover {
-    background-color: #e6292d;
+    background-color: #012F34;
+    color: white;
 }
 
 .socials {
@@ -1445,4 +1446,27 @@ footer p {
     right: 0px;
     top: 400px;
     bottom: 100px;
+}
+.facebook-png{
+    color:white;
+}
+.pinterest-png{
+    color:white;
+}
+
+.twitter-png{
+    color:white;
+}
+
+
+
+.facebook-png:hover{
+    color:#f27c7c;
+}
+.pinterest-png:hover{
+    color:#f27c7c;
+}
+
+.twitter-png:hover{
+    color:#f27c7c;
 }
