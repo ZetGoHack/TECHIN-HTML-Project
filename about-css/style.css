@@ -7,7 +7,6 @@ body {
     height: 517px;
     background: #014E56;
 }
-
 .section2{
     width:  100%;
     height: 437px;
@@ -131,6 +130,149 @@ body {
 .burger{
     display: none;
 }
+/*media dekstop*/
+@media(min-width:1440px){
+body {
+    margin: 0;
+    background-color: rgb(44, 98, 105);
+}
+.header{
+    width:  100%;
+    height: 517px;
+    background: #014E56;
+}
+.section2{
+    width:  100%;
+    height: 437px;
+    background: #012F34;
+}
+.footer1{
+    width:  100%;
+    height: 200px;
+    background: #F67E7E;
+    color: #1c2e35;
+}
+.footer2{
+    width:  100%;
+    height: 196px;
+    background: #002529;
+}
+
+.myteam{
+    width: 17.03%;
+    margin-top: -1px;
+    left: 40px;
+    position: relative
+}
+.a1{
+    width: 8.76%;
+    margin-top: 6px;
+    position: relative;
+    left: 106px;
+}
+.a2{
+    width: 82.3%;
+    margin-top: -4px;
+    justify-content: end;
+    display: flex;
+}
+.line2{
+    margin-top: 110px;
+    position: absolute;
+    margin-left: 420px
+}
+#buttonHome{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+#buttonAbout{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+#buttonContacts{
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    display: inline-block;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 29px;
+    padding-right: 33px;
+    width: 88px;
+    height: 28px;
+    transition: 0.2s linear;
+    left: -39px;
+    position: relative;
+}
+#buttonContacts:hover{
+    color: black;
+    background-color: white;
+}
+#buttonHome:hover{
+    color: #F67E7E;
+}
+#buttonAbout:hover{
+    color: #F67E7E;
+}
+.about{
+    width: 350px;
+    height: 100px;
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px; 
+    margin-top: 120px;
+    position: relative;
+    left: 40px;
+}
+.text1{
+    color: #FFF;
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    width: 48%;
+    margin-top: 165px;
+    position: absolute;
+    margin-left: 420px;
+}
+.group1{
+    width: 100px;
+    height: 200px;
+
+}
+.group2{
+    width: 100%;
+    justify-content: end;
+    margin-top: -25px;
+    display: flex;
+    height: auto;
+}
+.burger{
+    display: none;
+}
+}
 /*media tablet*/
 @media(min-width: 768px) and (max-width: 1439px){
     .line2{
@@ -139,9 +281,19 @@ body {
     .myteam{
         width: 70%;
     }
+    .myteam2{
+        width: 128px;
+        height: 32px;
+        position: relative;
+        top: -5px;
+        left: 1px;
+    }
     .a1{
-        width: 28%;
+        width: 26.3%;
         color: #FFF;
+        top: -8px;
+        position: relative;
+        left: -60px;
     }
     .header{
         height: 556px;
@@ -151,10 +303,32 @@ body {
         position: absolute;
         top: 380px
     }
+    #buttonContacts{
+        text-decoration: none;
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        border-radius: 28px;
+        border: 2px solid #FFF;
+        display: inline-block;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 29px;
+        padding-right: 31px;
+        width: 88px;
+        height: 28px;
+        transition: 0.2s linear;
+        left: -2px;
+        position: relative;
+        top: -10px;
+    }
     .about{
         margin: auto;
         position: absolute;
-        width: 90%;
+        width: 90.6%;
         justify-content: center;
         display: flex;
         margin-top: 80px;
@@ -165,9 +339,8 @@ body {
     }
     .text1{
         margin: auto;
-        position: relative;
-        width:62%;
-        margin-top: 180px;
+        width: 65%;
+        margin-top: 183px;
         color: #FFF;
         text-align: center;
         font-family: Livvic;
@@ -175,6 +348,8 @@ body {
         font-style: normal;
         font-weight: 600;
         line-height: 28px;
+        position: relative;
+        left: 0px;
     }
 }
 /*media tablet*/
@@ -189,12 +364,19 @@ body {
     .line2{
         display: none;
     }
+    .myteam2{
+        width: 128px;
+        height: 32px;
+        position: relative;
+        top: -29px;
+        left: 5px;
+    }
     .group1{
    margin-top: 104px;
    height: 200px;
    width: 100px;
    position: absolute;
-   top: 315px
+   top: 316px
     }
     .group2{
         height: 100px;
@@ -208,7 +390,11 @@ body {
         width: 90%;
         justify-content: center;
         display: flex;
-        margin-top: 80px;
+        margin-top: 47px;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
     }
     .bigdiv{
         width: 90% !important;
@@ -216,8 +402,8 @@ body {
     .text1{
         margin: auto;
         position: relative;
-        width:62%;
-        margin-top: 180px;
+        width: 94%;
+        margin-top: 104px;
         color: #FFF;
         text-align: center;
         font-family: Livvic;
@@ -229,10 +415,11 @@ body {
     .burger{
         display: block;
         width: 90%;
-        position: absolute;
         display: flex;
         justify-content: end;
-        margin-top: 10px;
+        margin-top: -22px;
+        position: relative;
+        left: -5px;
     }
 }
 /*media phone*/
@@ -489,7 +676,7 @@ a:hover > path{
     fill: #F67E7E;
 }
 .heig {
-    margin-top: 10.4%;
+    margin-top: 10.4% !important;
 }
 .state {
     font-style: normal;
@@ -499,7 +686,7 @@ a:hover > path{
 }
   /*section*/
   /*media*/
-  @media (max-width: 768px) and (min-width: 375px) {
+  @media (max-width: 768px) and (min-width: 450px) {
     .flex3 {
         bottom: 31.5%;
     }  
@@ -537,10 +724,10 @@ a:hover > path{
         margin-top: 8%;
     }
   }
-  @media (max-width: 374px) {
+  @media (max-width: 450px) {
     .flex3 {
         bottom: 37.5%;
-        transform: translateX(-75%);
+        transform: translateX(-76%);
     }
     .flex3 > p {
         font-size: 33px;
@@ -550,10 +737,43 @@ a:hover > path{
     .flex4 {
         width: 87.5%;
         margin-top: -10%;
-        height: 66.7em;
+        height: 107.9em;
     }
     .romb {
-        height: 23.8%;
+        height: 15.85em;
+        flex-basis: 100%;
+    }
+    .flex4 > .romb {
+        margin-top: 15.5%;
+    }
+    .flex4 > .romb:first-child {
+        margin-top: 0%;
+    }
+    .flex4 > .romb:nth-child(3) {
+        margin-top: 16%;
+    }
+    .flex4 > .romb:last-child {
+        margin-top: 16.5%;
+    }
+    #romb6 > button > svg {
+        bottom: -10.4%;
+    }
+    #romb6 > .bt-icons {
+        margin-top: 6.7%;
+    }
+    .oval {
+        margin-top: 9.6%;
+    }
+    .blue {
+        margin-top: unset;
+    }
+    .flex0 {
+        height: 10.5em;
+    }
+  }
+  @media (max-width: 450px) and (min-width: 375px) {
+    .flex0 {
+        margin-top: 6em;
     }
   }
   /*media*/
