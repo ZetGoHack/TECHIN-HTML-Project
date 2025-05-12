@@ -755,7 +755,7 @@ a:hover > path{
     .flex4 > .romb:last-child {
         margin-top: 16.5%;
     }
-    #romb6 > .pos5 > svg {
+    #romb6 > button > svg {
         bottom: -10.4%;
     }
     #romb6 > .bt-icons {
