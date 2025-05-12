@@ -741,7 +741,6 @@ a:hover > path{
     .position3{
         position: absolute;
         display: block;
-        position: absolute;
         display: flex;
         justify-content: end;
         width: 80%;

@@ -606,13 +606,23 @@ bottom: -112px;
     .display{
         display: none;
     }
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
 }
 /* mobile */
 
 /* tablet */
 @media (min-width: 768px) and (max-width: 1440px) {
+    #Sidebar{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
     .burger{
         display: none;
     }
@@ -670,6 +680,12 @@ bottom: -112px;
 
 /* desktop */
 @media (min-width: 1440px) {
+    #Sidebar{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
     .burger{
         display: none;
     }
@@ -730,6 +746,12 @@ bottom: -112px;
 
 /* tv */
 @media (min-width: 1920px) {
+    #Sidebar{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
     .burger{
         display: none;
     }
@@ -1225,7 +1247,7 @@ footer p {
     border: none;
 }
   
-#main {
+.main {
     transition: margin-left .5s;
     padding: 4px;
 }
