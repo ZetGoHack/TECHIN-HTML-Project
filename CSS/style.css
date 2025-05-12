@@ -456,12 +456,16 @@ height: 161px;
 .section2 {
     background-color: #004047;
 }
+.section2-human p {
+    margin: 0;
+    margin-top: -25px;
+}
 .section2-div {
     margin: auto;
     text-align: center;
     width: 90%;
     height: 96px;
-    margin-top: 40px;
+    margin-top: 38px;
 }
 .section2-div2 {
     color: white;
@@ -482,10 +486,6 @@ height: 161px;
     line-height: 25px;
     text-align: center;
 }
-.section2-human p {
-    margin: 0;
-    margin-top: -25px;
-}
 .section2-avatar {
     width: 62px;
     height: 62px;
@@ -499,8 +499,8 @@ height: 161px;
     font-family: Livvic;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 48px;
+    line-height: 0.97;
 }
 .section2-h1 {
     color: #FFF;
@@ -511,7 +511,7 @@ height: 161px;
     text-align: center;
     line-height: 28px;
     font-size: 18px;
-    margin-top: 24px;
+    margin-top: 25px;
 }
 .section2-span {
     color: #79C8C7;
@@ -831,7 +831,7 @@ height: 161px;
 .font-for-p {
     font-family: Livvic;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
 }
 .font-for-h3 {
     font-family: Livvic;
