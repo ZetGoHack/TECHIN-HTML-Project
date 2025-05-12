@@ -56,7 +56,7 @@ $(document).ready(function() {
         elements[i].oninvalid = function(e) {
             e.target.setCustomValidity("");
             if (!e.target.validity.valid) {
-                e.target.setCustomValidity("This field is required");
+              
             }
         };
         elements[i].oninput = function(e) {
