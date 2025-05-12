@@ -213,8 +213,4 @@ a { color: inherit; text-decoration: none; }
 }
 
 
-@media (min-width:375px)  { /* smartphones,*/}
-@media (min-width:768px) { /* big landscape tablets */ }
-@media (min-width:1440px) { /* hi-res laptops and desktops */ }
-
 
