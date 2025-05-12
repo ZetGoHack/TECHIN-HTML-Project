@@ -75,6 +75,7 @@ margin-top: 70px;
     list-style-type: none;
     display: inline-flex;
 }
+/* section1 */
 .section1 {
     width: 100%;
     background: #012F34;
@@ -169,7 +170,8 @@ line-height: 28px;
 .textarea .image {
     margin: 0 20px 20px 0;
 }
-/* section1 */
+
+/* media dekstop */
 @media(min-width:1440px){
 .section1 {
     width: 100%;
@@ -207,7 +209,7 @@ line-height: 28px;
 .group2{
     width: 100px;
     height: 244px;
-    margin-top: -114px;
+    margin-top: -102px
 }
 
 .ex{
@@ -372,7 +374,7 @@ height: 65px;
       margin-top: 64px;
     }
     .sectionflex2{
-        width: 87.5%;
+        width: 86.7%
     }
     .section1{
         height: 1073px;
@@ -387,11 +389,12 @@ line-height: 32px;
 position: absolute;
 width: 60%;
 bottom: -112px;
+height: 161px;
     }
     .textarea{
         position: absolute;
         display: flex;
-            width: 90% !important;
+            width: 87% !important;
             flex-wrap: wrap;
             flex-direction: row;
     }
@@ -406,6 +409,8 @@ bottom: -112px;
     .our{
         text-align: center;
         width: 100%;
+        top: 7px;
+        position: relative;
     }
     .image{
         width: 100%;
@@ -425,12 +430,20 @@ bottom: -112px;
     }
     .group11{
         margin-top: 195px;
+        margin-bottom: 28px;
+        top: -5px;
+    position: relative;
     }
     .group12{
         margin-top: 430px;
+        position: relative;
+        top: 7px;
+        
     }
     .group13{
-        margin-top: 660px;
+        margin-top: 677px;
+        position: relative;
+        top: 7px;
     }
     .textarea .image{
         margin: 0 0px 20px 0;
