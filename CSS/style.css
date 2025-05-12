@@ -313,7 +313,7 @@ font-weight: 700;
 line-height: 32px;
 position: absolute;
 width: 60%;
-bottom: -157px;
+top: 836px;
 height: 65px;
 }
 .textarea{
@@ -388,7 +388,7 @@ font-weight: 700;
 line-height: 32px; 
 position: absolute;
 width: 60%;
-bottom: -217px;
+bottom: -94px;
 height: 161px;
     }
     .textarea{
