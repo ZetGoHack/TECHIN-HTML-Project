@@ -213,30 +213,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 
-@media (max-width: 601px) {
-  .site-header {
-    margin: 0 16px;
-    padding: 16px;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .btn-outline, .btn-solid {
-    width: 100%;
-    padding: 12px;
-    font-size: 14px;
-  }
-}
-
-
-@media (min-width: 375px) and (max-width: 375px) {
-  .site-header {
-    margin: 0 40px;
-    padding: 24px;
-  }
-  .btn-outline, .btn-solid {
-    font-size: 15px;
-    padding: 10px 20px;
-  }
-}
+@media (min-width:375px)  { /* smartphones,*/}
+@media (min-width:768px) { /* big landscape tablets */ }
+@media (min-width:1440px) { /* hi-res laptops and desktops */ }
 
 
