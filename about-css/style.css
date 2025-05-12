@@ -676,7 +676,7 @@ a:hover > path{
     fill: #F67E7E;
 }
 .heig {
-    margin-top: 10.4%;
+    margin-top: 10.4% !important;
 }
 .state {
     font-style: normal;
