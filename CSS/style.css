@@ -716,6 +716,11 @@ height: 161px;
     .section2-human {
         width: 31.5%;
     }
+    .section2-human p{
+        margin-top: -29px;
+    }
+    .section2-human p:last-child {
+        margin-top: -24.5px;
     .flex{
         display: flex;
     }
