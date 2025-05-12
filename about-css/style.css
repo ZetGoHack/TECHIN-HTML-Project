@@ -724,7 +724,7 @@ a:hover > path{
         margin-top: 8%;
     }
   }
-  @media (max-width: 374px) {
+  @media (max-width: 375px) {
     .flex3 {
         bottom: 37.5%;
         transform: translateX(-76%);
@@ -755,7 +755,7 @@ a:hover > path{
     .flex4 > .romb:last-child {
         margin-top: 16.5%;
     }
-    #romb6 > .pos5 > .btn {
+    #romb6 > .pos5 > svg {
         bottom: -10.4%;
     }
     #romb6 > .bt-icons {
