@@ -284,10 +284,16 @@ body {
     .myteam2{
         width: 128px;
         height: 32px;
+        position: relative;
+        top: -5px;
+        left: 1px;
     }
     .a1{
-        width: 28%;
+        width: 26.3%;
         color: #FFF;
+        top: -8px;
+        position: relative;
+        left: -60px;
     }
     .header{
         height: 556px;
@@ -305,23 +311,24 @@ body {
         font-style: normal;
         font-weight: 600;
         line-height: 28px;
-        border-radius: 24px;
+        border-radius: 28px;
         border: 2px solid #FFF;
         display: inline-block;
-        padding-top: 7px;
+        padding-top: 8px;
         padding-bottom: 8px;
         padding-left: 29px;
-        padding-right: 33px;
+        padding-right: 31px;
         width: 88px;
         height: 28px;
         transition: 0.2s linear;
-        left: -39px;
+        left: -2px;
         position: relative;
+        top: -10px;
     }
     .about{
         margin: auto;
         position: absolute;
-        width: 90%;
+        width: 90.6%;
         justify-content: center;
         display: flex;
         margin-top: 80px;
@@ -332,9 +339,8 @@ body {
     }
     .text1{
         margin: auto;
-        position: relative;
-        width:62%;
-        margin-top: 180px;
+        width: 65%;
+        margin-top: 183px;
         color: #FFF;
         text-align: center;
         font-family: Livvic;
@@ -342,6 +348,8 @@ body {
         font-style: normal;
         font-weight: 600;
         line-height: 28px;
+        position: relative;
+        left: 0px;
     }
 }
 /*media tablet*/
@@ -355,6 +363,11 @@ body {
     }
     .line2{
         display: none;
+    }
+    .myteam2{
+        width: 128px;
+        height: 32px;
+        position: relative;
     }
     .group1{
    margin-top: 104px;
@@ -376,6 +389,10 @@ body {
         justify-content: center;
         display: flex;
         margin-top: 80px;
+        font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
     }
     .bigdiv{
         width: 90% !important;
