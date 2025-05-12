@@ -544,6 +544,7 @@ bottom: -112px;
 }
 /* mobile */
 @media (max-width: 767px){
+
     .section2-avatar {
         margin-top: 50px;
     }
@@ -1276,7 +1277,7 @@ footer p {
 
 .position{
     position: absolute;
-    left: 135px;
+    left: 242px;
     right: 0px;
     top: 400px;
     bottom: 100px;

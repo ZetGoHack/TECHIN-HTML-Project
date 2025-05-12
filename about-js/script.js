@@ -66,3 +66,4 @@ buttons.forEach((element, counter) => {
         }
     });
 });
+
