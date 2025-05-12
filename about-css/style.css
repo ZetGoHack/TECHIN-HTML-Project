@@ -281,6 +281,10 @@ body {
     .myteam{
         width: 70%;
     }
+    .myteam2{
+        width: 128px;
+        height: 32px;
+    }
     .a1{
         width: 28%;
         color: #FFF;
@@ -292,6 +296,27 @@ body {
         margin-top: -24px;
         position: absolute;
         top: 380px
+    }
+    #buttonContacts{
+        text-decoration: none;
+        color: #FFF;
+        font-family: "Livvic", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        border-radius: 24px;
+        border: 2px solid #FFF;
+        display: inline-block;
+        padding-top: 7px;
+        padding-bottom: 8px;
+        padding-left: 29px;
+        padding-right: 33px;
+        width: 88px;
+        height: 28px;
+        transition: 0.2s linear;
+        left: -39px;
+        position: relative;
     }
     .about{
         margin: auto;
