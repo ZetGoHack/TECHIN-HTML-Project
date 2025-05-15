@@ -1166,3 +1166,11 @@ body {
     width: 170px;
   }
 }
+
+#buttonHome {
+    z-index: 1;
+}
+
+#buttonAbout {
+    z-index: 1;
+}
