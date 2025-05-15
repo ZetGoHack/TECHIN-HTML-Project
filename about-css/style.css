@@ -1345,7 +1345,7 @@ h1, h2, h3, p, address, .footer-nav > li {
     border: none;
 }
   
-.main {
+#main {
     transition: margin-left .5s;
     padding: 4px;
 }
