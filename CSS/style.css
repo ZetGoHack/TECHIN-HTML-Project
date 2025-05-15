@@ -1076,301 +1076,93 @@ body {
     align-items: center;
 }
 
+/* ready-to-start  */
+
 .ready-to-start {
-    
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    height: 200px;
+  background: #f67e7e;
+  padding: 76px 0;
+  position: relative;
 }
 
-.ready-to-start img {
-    padding-top: 93px;
-    max-width: 150px;
-    height: auto;
+.ready-to-start .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ready-to-start .shape {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .ready-to-start h2 {
-    font-size: 2.5rem;
-    margin-left:40px;
-    margin-bottom: 10px;
-    color:#012F34;
+  color: #012f34;
+  font-family: "Livvic", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  margin: 0;
 }
 
 .ready-to-start .contact-btn {
-    color: rgb(0, 0, 0);
-    padding: 5px 10px;
-    text-decoration: none;
-    border: 2px solid rgb(0, 0, 0); 
-    border-radius: 35px;
-    font-size: 1.2rem;
-    margin-top: 15px;
-    margin-right: 230px;
+  text-decoration: none;
+  color: #012f34;
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  border-radius: 24px;
+  border: 2px solid #012f34;
+  display: inline-block;
+  flex-shrink: 0;
+  padding-top: 9px;
+  padding-bottom: 11px;
+  padding-left: 32px;
+  padding-right: 33px;
 }
 
 .ready-to-start .contact-btn:hover {
-    background-color: #e6292d;
+  background: #012f34;
+  color: #fff;
 }
 
-.socials {
-    color: rgb(122, 121, 121);
+@media (max-width: 1024px) {
+  .ready-to-start {
+    padding: 84px 0;
+    overflow: hidden;
+  }
+
+  .ready-to-start h2 {
+    font-size: 32px;
+  }
+
+  .ready-to-start .shape {
+    bottom: -15px;
+    width: 167px;
+  }
 }
 
-.socials img {
-    max-width: 150px;
-    margin-bottom: 10px;
-}
 
-
-.footer-bottom {
-    background-color: #002a29;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    display: flex;
+@media (max-width: 767px) {
+  .ready-to-start .container {
     flex-direction: column;
-    align-items: center;
-}
-
-.footer-bottom .address p,
-.footer-bottom .social-links a {
-    margin: 5px 0;
-    color: rgb(122, 121, 121);
-}
-
-.footer-bottom .social-links a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-.footer-bottom .social-links a:hover {
-    color: #ff3366;
-}
-
-footer p {
-    margin-top: 20px;
-    font-size: 1rem;
-}
-
-.logo-img {
-    max-width: 100px;
-    height: auto;
-}
-
-.footer-bottom {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    position: relative;  
-}
- 
-
-.footer-left{
-    display: flex;
-    gap: 80px;
-    align-items: center;
-}
-
-
-.site-footer {
-    display: flex;
-    align-items: center;
-    padding: 20px 124px;
-    background-color: #002529;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    gap: 40px;
+    gap: 24px;
+    padding: 0;
   }
 
-.footer-left {
+  .ready-to-start h2 {
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    line-height: 32px;
 
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.footer-nav {
-  list-style: none;
-  display: flex;
-  gap: 24px;
-  font-weight: 700;
-}
-
-.address {
-  line-height: 1.6;
-  font-style: normal;
-  margin: 0 auto 0 40px;
-}
-
-.footer-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 16px;   
-}
-.socials img {
-    margin: 5px;
-     width: 24px; 
-}
-
-.copyrightt {
-  width: 100%;
-  text-align: right;
-  margin-top: 40px;
-  font-size: .9rem;
-  opacity: .8;
-}
-.sidebar {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #2C6269;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-  
-.sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-}
-  
-.sidebar a:hover {
-    color: #f1f1f1;
-}
-  
-.sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-  
-.openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #014E56;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-}
-  
-.main {
-    transition: margin-left .5s;
-    padding: 4px;
-}
-
-.link{
-    text-decoration: none;
-    color: #FFF;
-    font-family: "Livvic", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 28px;
-    border-radius: 24px;
-    border: 2px solid #FFF;
-    display: inline-block;
-    flex-shrink: 0;
-    margin-top: 23px;
-    padding-top: 9px;
-    padding-bottom:11px ;
-    padding-left: 32px;
-    padding-right: 33px;
-    width: 88px;
-    height: 28px;
-    margin-left: 5px;
-}
-
-.position{
-    position: absolute;
-    left: 150px;
-    right: 0px;
-    top: 400px;
-    bottom: 100px;
-}
-  
-
-/* ===Media Queries for Footer === */
- 
-/* Tablet (768px–1204px)  */
-@media screen and (max-width: 1024px) {
-    .footer,
-    .site-footer {
-      flex-wrap: wrap;
-      justify-content: center;
-      text-align: center;
-      padding: 1.5rem;
-    }
-   
-    .footer-left,
-    .footer-right,
-    .address {
-      flex: 100%;
-      margin: 1rem 0;
-    }
-   
-    .footer-nav {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-    }
-   
-    .logo-img {
-      max-width: 140px;
-    }
-   
-    .contact-btn {
-      padding: 0.75rem 1.25rem;
-      font-size: 1rem;
-    }
   }
-   
-  /* Mobile (375/302px) */
-  @media screen and (max-width: 600px) {
-    .footer,
-    .site-footer {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 1rem;
-    }
-   
-    .footer-nav {
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-   
-    .socials img {
-      width: 24px;
-      margin: 0 6px;
-    }
-   
-    .logo-img {
-      width: 100px;
-      margin-bottom: 1rem;
-    }
-   
-    .contact-btn {
-      display: block;
-      margin-top: 1rem;
-      width: fit-content;
-    }
-   
-    .address {
-      font-size: 0.9rem;
-      line-height: 1.5;
-    }
+
+  .ready-to-start .shape {
+    bottom: -15px;
+    width: 170px;
   }
+}
