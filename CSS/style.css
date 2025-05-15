@@ -75,6 +75,7 @@ margin-top: 70px;
     list-style-type: none;
     display: inline-flex;
 }
+/* section1 */
 .section1 {
     width: 100%;
     background: #012F34;
@@ -169,7 +170,8 @@ line-height: 28px;
 .textarea .image {
     margin: 0 20px 20px 0;
 }
-/* section1 */
+
+/* media dekstop */
 @media(min-width:1440px){
 .section1 {
     width: 100%;
@@ -207,7 +209,7 @@ line-height: 28px;
 .group2{
     width: 100px;
     height: 244px;
-    margin-top: -114px;
+    margin-top: -102px
 }
 
 .ex{
@@ -311,7 +313,7 @@ font-weight: 700;
 line-height: 32px;
 position: absolute;
 width: 60%;
-bottom: -51px;
+top: 836px;
 height: 65px;
 }
 .textarea{
@@ -372,7 +374,7 @@ height: 65px;
       margin-top: 64px;
     }
     .sectionflex2{
-        width: 87.5%;
+        width: 86.7%
     }
     .section1{
         height: 1073px;
@@ -386,12 +388,13 @@ font-weight: 700;
 line-height: 32px; 
 position: absolute;
 width: 60%;
-bottom: -112px;
+bottom: -218px;
+height: 161px;
     }
     .textarea{
         position: absolute;
         display: flex;
-            width: 90% !important;
+            width: 87% !important;
             flex-wrap: wrap;
             flex-direction: row;
     }
@@ -406,6 +409,8 @@ bottom: -112px;
     .our{
         text-align: center;
         width: 100%;
+        top: 7px;
+        position: relative;
     }
     .image{
         width: 100%;
@@ -417,7 +422,7 @@ bottom: -112px;
     }
     .text12{
         width: 100%;
-        margin-top: -40px;
+        margin-top: -26px;
     }
     .text13{
         width: 100%;
@@ -425,12 +430,20 @@ bottom: -112px;
     }
     .group11{
         margin-top: 195px;
+        margin-bottom: 28px;
+        top: -5px;
+    position: relative;
     }
     .group12{
         margin-top: 430px;
+        position: relative;
+        top: 7px;
+        
     }
     .group13{
-        margin-top: 660px;
+        margin-top: 677px;
+        position: relative;
+        top: 7px;
     }
     .textarea .image{
         margin: 0 0px 20px 0;
@@ -443,12 +456,16 @@ bottom: -112px;
 .section2 {
     background-color: #004047;
 }
+.section2-human p {
+    margin: 0;
+    margin-top: -25px;
+}
 .section2-div {
     margin: auto;
     text-align: center;
     width: 90%;
     height: 96px;
-    margin-top: 40px;
+    margin-top: 38px;
 }
 .section2-div2 {
     color: white;
@@ -469,10 +486,6 @@ bottom: -112px;
     line-height: 25px;
     text-align: center;
 }
-.section2-human p {
-    margin: 0;
-    margin-top: -25px;
-}
 .section2-avatar {
     width: 62px;
     height: 62px;
@@ -486,8 +499,8 @@ bottom: -112px;
     font-family: Livvic;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 48px;
+    line-height: 0.97;
 }
 .section2-h1 {
     color: #FFF;
@@ -498,7 +511,7 @@ bottom: -112px;
     text-align: center;
     line-height: 28px;
     font-size: 18px;
-    margin-top: 24px;
+    margin-top: 25px;
 }
 .section2-span {
     color: #79C8C7;
@@ -544,6 +557,7 @@ bottom: -112px;
 }
 /* mobile */
 @media (max-width: 767px){
+
     .section2-avatar {
         margin-top: 50px;
     }
@@ -606,13 +620,23 @@ bottom: -112px;
     .display{
         display: none;
     }
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
 }
 /* mobile */
 
 /* tablet */
 @media (min-width: 768px) and (max-width: 1440px) {
+    #Sidebar{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
     .burger{
         display: none;
     }
@@ -670,6 +694,12 @@ bottom: -112px;
 
 /* desktop */
 @media (min-width: 1440px) {
+    #Sidebar{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
     .burger{
         display: none;
     }
@@ -685,6 +715,12 @@ bottom: -112px;
     }
     .section2-human {
         width: 31.5%;
+    }
+    .section2-human p{
+        margin-top: -29px;
+    }
+    .section2-human > p.section2-what {
+        margin-top: -20px;
     }
     .flex{
         display: flex;
@@ -730,6 +766,12 @@ bottom: -112px;
 
 /* tv */
 @media (min-width: 1920px) {
+    #Sidebar{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
     .burger{
         display: none;
     }
@@ -795,7 +837,7 @@ bottom: -112px;
 .font-for-p {
     font-family: Livvic;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
 }
 .font-for-h3 {
     font-family: Livvic;
@@ -1225,7 +1267,7 @@ footer p {
     border: none;
 }
   
-#main {
+.main {
     transition: margin-left .5s;
     padding: 4px;
 }
@@ -1254,7 +1296,7 @@ footer p {
 
 .position{
     position: absolute;
-    left: 135px;
+    left: 150px;
     right: 0px;
     top: 400px;
     bottom: 100px;

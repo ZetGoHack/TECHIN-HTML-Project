@@ -12,7 +12,7 @@ let texts = ['“The first spark is never the final form — iterate until it br
 let professions = ['Founder & CEO','Co-founder & COO','Co-founder & CTO','Business Development Lead','Lead Marketing','Head of Talent']
 
 let toHalfSvg = document.getElementById("toHalf");
-let mediaR = window.matchMedia("(max-width: 375px)");
+let mediaR = window.matchMedia("(max-width: 450px)");
 function checkMedia (e) {
     if (e.matches) {
         toHalfSvg.setAttribute("viewBox", "0 100 100 200");
@@ -66,3 +66,13 @@ buttons.forEach((element, counter) => {
         }
     });
 });
+
+function openNav() {
+    document.getElementById("Sidebar").style.width = "250px";
+    document.getElementById("main").style.marginRight = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("Sidebar").style.width = "0px";
+    document.getElementById("main").style.marginLeft= "0px";
+  }

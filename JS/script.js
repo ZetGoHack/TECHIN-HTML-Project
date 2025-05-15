@@ -4,6 +4,6 @@ function openNav() {
   }
   
   function closeNav() {
-    document.getElementById("Sidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
+    document.getElementById("Sidebar").style.width = "0px";
+    document.getElementById("main").style.marginLeft= "0px";
   }
