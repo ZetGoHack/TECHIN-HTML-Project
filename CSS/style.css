@@ -555,6 +555,37 @@ height: 161px;
     height: 28px;
     margin-left:557px ;
 }
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+  
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #014E56;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
 /* mobile */
 @media (max-width: 767px){
 
