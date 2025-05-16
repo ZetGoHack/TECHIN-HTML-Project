@@ -358,12 +358,24 @@ body {
     .a1{
         display: none;
     }
+
     .a2{
         display: none;
     }
+
     .line2{
         display: none;
     }
+
+    .burger {
+        display: block;
+        position: absolute;
+        display: flex;
+        justify-content: end;
+        margin-top: 100px;
+        left: 90%;
+    }
+
     .myteam2{
         width: 128px;
         height: 32px;
@@ -1369,11 +1381,7 @@ h1, h2, h3, p, address, .footer-nav > li {
 
   .burger{
     display: block;
-    position: absolute;
-    display: flex;
-    justify-content: end;
-    margin-top: 100px;
-    left: 90%;
+    left: 75%;
 }
 }
 @media (min-width: 768px) and (max-width: 1439px) {
