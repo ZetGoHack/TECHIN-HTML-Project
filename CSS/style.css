@@ -636,7 +636,6 @@ height: 161px;
   
 #main {
     transition: margin-left .5s;
-    padding: 4px;
 }
 
 .link{
@@ -675,6 +674,10 @@ height: 161px;
     .section2-avatar {
         margin-top: 50px;
     }
+    .header-size {
+        width: 100%;
+        height: 700px;
+    }
     .burger{
         display: block;
         position: absolute;
@@ -688,29 +691,24 @@ height: 161px;
     } 
     .position2{
         position: absolute;
-        left: 200px;
-        right: 100px;
-        bottom: 100px;
+        left: 20px;
         top: 600px;
     }
     .txt-config{
         position: absolute;
         top: 180px;
         bottom: 100px;
-        left: 193px;
-        right: 393px;
-        width: 600px;
-        font-size: 55px;
+        left: 20px;
+        font-size: 40px;
         width: 300px;
         text-align: center;
     }
     .gap-above-txt{
         position: absolute;
         top: 350px;
-        bottom: 100px;
-        left: 193px;
-        right: 393px;
-        font-size: 25px;
+        left: 20px;
+        font-size: 15px;
+        width: 90%;
     }
     #buttonHome{
         display: none;
