@@ -572,6 +572,13 @@ height: 161px;
     .position1{
         display: none;
     } 
+    .section2{
+        height: 1410px;
+    }
+    .section2-div3{
+        top: 42px;
+        position: relative;
+    }
     .position2{
         position: absolute;
         left: 200px;
@@ -630,7 +637,7 @@ height: 161px;
 /* mobile */
 
 /* tablet */
-@media (min-width: 768px) and (max-width: 1439px) {
+@media (min-width: 768px) and (max-width: 1440px) {
     #Sidebar{
         display: none;
     }
@@ -756,8 +763,10 @@ height: 161px;
     }
     .position2{
         position: absolute;
-        right: 0;
-        bottom: 0;
+        left: 1300px;
+        right: 165px;
+        top: 600px;
+        bottom: 100px;
         }
 }
 /* desktop */
