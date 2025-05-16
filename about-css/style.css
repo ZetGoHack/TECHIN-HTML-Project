@@ -1264,19 +1264,6 @@ h1, h2, h3, p, address, .footer-nav > li {
   background: #012f34;
   color: #fff;
 }
-
-.sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #2C6269;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
   
 .sidebar a {
     padding: 8px 8px 8px 32px;
