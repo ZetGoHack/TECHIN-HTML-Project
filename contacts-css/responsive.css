@@ -17,7 +17,7 @@
 
 @media (max-width: 1024px) {
   
-    .container {
+    .container, .form-container {
         max-width: 570px;
     }
 
@@ -42,7 +42,7 @@
         padding-top: 50px;
     }
 
-    .contact-section .container {
+    .contact-section .form-container {
         grid-template-columns: 1fr;
         gap: 60px;
     }
@@ -63,7 +63,7 @@
 
 @media (max-width: 767px) {
 
-    .container {
+    .container, .form-container {
         max-width: 540px;
         padding-left: 24px;
         padding-right: 24px;
