@@ -1487,10 +1487,7 @@ h1, h2, h3, p, address, .footer-nav > li {
 
 .position{
     position: absolute;
-    left: 242px;
-    right: 0px;
-    top: 400px;
-    bottom: 100px;
+    right: 0;
 }
 .facebook-png{
     color:white;
