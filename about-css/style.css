@@ -955,6 +955,9 @@ a:hover > path{
         left: 100px;
         right: 195px;
     }
+    .txt-style {
+        display: none;
+    }
     .txt-style2{
         text-align: center;
     }
