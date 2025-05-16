@@ -30,14 +30,6 @@
         padding-left: 48px;
     }
 
-    .burger_btn {
-        display: inline-block;
-    }
-
-    .burger_close {
-        display: block;
-    }
-
     .contact-section {
         padding-top: 50px;
     }
@@ -80,6 +72,14 @@
 
     .logo-img {
         width: 128px;
+    }
+    
+    .burger_btn {
+        display: inline-block;
+    }
+
+    .burger_close {
+        display: block;
     }
 
     .main-nav {
