@@ -151,7 +151,7 @@ a {
   padding: 79.5px 0 120px;
 }
 
-.contact-section .container {
+.contact-section .form-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 35px;
