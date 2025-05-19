@@ -7,7 +7,7 @@ Mūsų komanda (Mezgėjai):
 4. Titas K.
 
 Start: 31-03-2025<br />
-*Ended:*<br />
+Ended: 16-05-2025<br />
 Deadline: 16-05-2025<br />
 
 Structure:<br />
